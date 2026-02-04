@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>PS1.Pilani</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="splash-screen">
+        <div class="splash-content">
+            <div class="logo splash-logo">ps1<span class="accent">.pilani</span></div>
+            <div class="splash-loader"></div>
+            <p class="splash-text">Gathering stations...</p>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">ps1<span class="accent">.pilani</span></div>
+        <div class="nav-links">
+            <button class="nav-btn active" data-target="dashboard-section">Explorer</button>
+            <button class="nav-btn" data-target="info-section">Info</button>
+        </div>
+    </nav>
+
+    <main id="dashboard-section" class="section active">
+        <div class="controls-container">
+            <div class="search-row">
+                <div class="input-group full-width">
+                    <label>Search</label>
+                    <input type="text" id="searchInput" placeholder="Company, City, or Domain...">
+                </div>
+            </div>
+
+            <div class="filter-grid">
+                <div class="input-group">
+                    <label>Discipline</label>
+                    <select id="disciplineFilter">
+                        <option value="all">Any</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label>CGPA ≤</label>
+                    <input type="number" id="cgpaInput" step="0.01" min="0" max="10" placeholder="e.g. 7.5">
+                </div>
+
+                <div class="input-group">
+                    <label>City</label>
+                    <select id="cityFilter">
+                        <option value="all">All</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label>Mode</label>
+                    <select id="modeFilter">
+                        <option value="all">All</option>
+                        <option value="Offline">Offline</option>
+                        <option value="Online">Online</option>
+                    </select>
+                </div>
+                
+                <div class="input-group">
+                    <label>Year</label>
+                    <select id="yearFilter">
+                        <option value="all">All</option>
+                        <option value="2024-25">2024-25</option>
+                        <option value="2023-24">2023-24</option>
+                        <option value="2022-23">2022-23</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label>Sort</label>
+                    <select id="sortFilter">
+                        <option value="recency">Recency</option>
+                        <option value="cutoff_high">High Cutoff</option>
+                        <option value="cutoff_low">Low Cutoff</option>
+                        <option value="year">Year</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats-header">
+            <span id="countDisplay">Waiting...</span>
+        </div>
+
+        <div id="stationsGrid" class="grid-container">
+            </div>
+    </main>
+
+    <section id="info-section" class="section">
+        <div class="info-card">
+            
+            <div class="orientation-container">
+                <h2>Orientation Sessions</h2>
+                <a href="ps1-orientation-2024.mp4" class="orientation-card" target="_blank">
+                    <div class="play-icon-box">
+                        <div class="play-triangle"></div>
+                    </div>
+                    <div class="ort-details">
+                        <div class="ort-title">2024 PS-1 Orientation</div>
+                        <div class="ort-subtitle">Official recording • 1h 20m</div>
+                    </div>
+                    <div class="external-icon">↗</div>
+                </a>
+            </div>
+
+            <hr class="divider">
+
+            <h2>Station Chronicles</h2>
+            <p class="subtitle">Historical reviews and experiences organized by year and domain.</p>
+            
+            <div id="reviews-container" class="reviews-container">
+                </div>
+
+            <div class="info-footer">
+                <h3>About Portal</h3>
+                <p>Designed for BITS Pilani PS1 students. Data aggregates historical cutoffs and station metadata.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
