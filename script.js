@@ -91,12 +91,12 @@ document.addEventListener('DOMContentLoaded', () => {
             
             reviewsData[year].forEach(filename => {
                 const link = document.createElement('a');
-                // CLEAN UP FILENAME FOR DISPLAY (Remove "20xx Chronicles - " and ".pdf")
+                // CLEAN UP FILENAME
                 const displayName = filename.replace(/^\d{4} Chronicles - /, '').replace('.pdf', '');
                 
                 link.href = `reviews/${year}/${filename}`;
                 link.textContent = displayName;
-                link.target = "_blank"; // Open in new tab
+                link.target = "_blank";
                 link.className = 'review-link';
                 fileList.appendChild(link);
             });
@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Toggle functionality
             header.addEventListener('click', () => {
                 const isOpen = fileList.style.display === 'flex';
-                // Close all others (optional)
+                // Close others
                 document.querySelectorAll('.review-file-list').forEach(el => el.style.display = 'none');
                 document.querySelectorAll('.review-year-header').forEach(el => el.classList.remove('active'));
 
@@ -129,13 +129,13 @@ document.addEventListener('DOMContentLoaded', () => {
             
             initializeFilters();
             applyFilters();
-            renderReviews(); // Init reviews
+            renderReviews();
             hideSplash(); 
         })
         .catch(err => {
             console.error(err);
             stationsGrid.innerHTML = '<p style="color:red; text-align:center;">Error loading data.</p>';
-            renderReviews(); // Still render reviews even if stations fail
+            renderReviews(); 
             hideSplash(); 
         });
 
@@ -180,6 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (h.project_domain) {
                     h.project_domain.split(',').forEach(d => {
                         const clean = d.trim();
+                        // Filter out "Yet to be finalized" immediately
                         if(clean && clean.toLowerCase() !== 'yet to be finalized') domainSet.add(clean);
                     });
                 }
@@ -262,9 +263,35 @@ document.addEventListener('DOMContentLoaded', () => {
             const modeClass = (s.mode || '').toLowerCase() === 'online' ? 'online' : 'offline';
             const cutoffDisplay = s.calculatedCutoff > 0 ? s.calculatedCutoff : 'N/A';
             
-            let discText = s.parsedDisciplines.slice(0, 2).join(', ');
-            if(s.parsedDisciplines.length > 2) discText += ` +${s.parsedDisciplines.length - 2}`;
-            if(!discText) discText = s.industry || 'General';
+            // --- STRICT TAG CLEANING ---
+            const invalidTags = ['n/a', 'na', 'none', 'null', 'undefined', ''];
+            
+            // 1. Filter parsed disciplines strictly
+            let cleanDisciplines = s.parsedDisciplines.filter(d => 
+                !invalidTags.includes(d.toLowerCase().trim())
+            );
+            
+            let displayString = '';
+            
+            // 2. Logic to choose what to display
+            if (cleanDisciplines.length > 0) {
+                // Show ALL valid disciplines (no truncation)
+                displayString = cleanDisciplines.join(', ');
+            } else {
+                // Fallback to Industry if valid
+                if (s.industry) {
+                    const cleanInd = s.industry.trim();
+                    if (!invalidTags.includes(cleanInd.toLowerCase())) {
+                        displayString = cleanInd;
+                    }
+                }
+            }
+
+            // 3. Generate HTML only if we have a valid string
+            let discHtml = '';
+            if (displayString) {
+                discHtml = `<span class="tag disc">${displayString}</span>`;
+            }
 
             const yearsText = s.activeYears.length > 0 ? s.activeYears.join(' • ') : 'Inactive';
 
@@ -273,7 +300,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="card-title">${s.name}</div>
                     <div class="tags">
                         <span class="tag ${modeClass}">${s.mode}</span>
-                        <span class="tag disc">${discText}</span>
+                        ${discHtml}
                     </div>
                     <div class="card-city">
                         📍 ${s.city}

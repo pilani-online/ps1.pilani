@@ -33,9 +33,8 @@ body {
 }
 
 .splash-content { text-align: center; }
-.splash-logo { font-size: 2.5rem; margin-bottom: 0.2rem; } /* Reduced margin */
+.splash-logo { font-size: 2.5rem; margin-bottom: 0.2rem; }
 
-/* New Splash Author Style */
 .splash-author {
     color: var(--text-secondary);
     font-size: 0.9rem;
@@ -74,7 +73,6 @@ body {
     backdrop-filter: blur(12px);
 }
 
-/* New Brand Container for Navbar */
 .brand-container {
     display: flex;
     flex-direction: column;
@@ -85,7 +83,6 @@ body {
 .logo { font-size: 1.3rem; font-weight: 700; letter-spacing: -0.5px; line-height: 1; }
 .accent { color: var(--accent-color); }
 
-/* New Navbar Author Style */
 .nav-author {
     font-size: 0.65rem;
     color: var(--text-secondary);
@@ -177,10 +174,28 @@ input:focus, select:focus { border-color: var(--accent-color); }
 .card-title { font-size: 1.1rem; font-weight: 600; margin-bottom: 0.6rem; line-height: 1.3; }
 
 .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.8rem; }
-.tag { font-size: 0.7rem; padding: 3px 8px; border-radius: 4px; background: #252525; color: #ccc; }
-.tag.online { color: #81D4FA; background: rgba(129, 212, 250, 0.1); }
-.tag.offline { color: #A5D6A7; background: rgba(165, 214, 167, 0.1); }
-.tag.disc { color: #FFCC80; background: rgba(255, 204, 128, 0.1); max-width: 180px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.tag {
+    font-size: 0.7rem;
+    padding: 3px 8px;
+    border-radius: 4px;
+    background: #252525;
+    color: #ccc;
+    line-height: 1.4;
+}
+
+.tag.online { color: #81D4FA; background: rgba(129, 212, 250, 0.1); white-space: nowrap; }
+.tag.offline { color: #A5D6A7; background: rgba(165, 214, 167, 0.1); white-space: nowrap; }
+
+/* UPDATED DISC TAG STYLE: Allows wrapping and removes max-width */
+.tag.disc {
+    color: #FFCC80;
+    background: rgba(255, 204, 128, 0.1);
+    white-space: normal; /* Allow wrapping */
+    overflow: visible;   /* Show full text */
+    text-overflow: clip; /* Remove ellipsis */
+    max-width: none;     /* Allow it to grow */
+}
 
 .card-city { font-size: 0.8rem; color: var(--text-secondary); display: flex; align-items: center; gap: 6px; }
 .card-years { font-size: 0.75rem; color: var(--text-primary); background: rgba(255, 255, 255, 0.05); padding: 4px 8px; border-radius: 4px; margin-top: 0.6rem; display: inline-block; }
