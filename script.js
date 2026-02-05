@@ -264,7 +264,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const cutoffDisplay = s.calculatedCutoff > 0 ? s.calculatedCutoff : 'N/A';
             
             // --- STRICT TAG CLEANING ---
-            const invalidTags = ['n/a', 'na', 'none', 'null', 'undefined', ''];
+            const invalidTags = ['any', 'n/a', 'na', 'none', 'null', 'undefined', ''];
             
             // 1. Filter parsed disciplines strictly
             let cleanDisciplines = s.parsedDisciplines.filter(d => 
