@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Current Projects | PS1.Pilani</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏢</text></svg>">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+</head>
+<body>
+
+    <div id="splash-screen">
+        <div class="splash-content">
+            <div class="logo splash-logo">ps1<span class="accent">.pilani</span></div>
+            <div class="splash-author">by Pratyush Goenka</div>
+            <div class="splash-loader"></div>
+            <p class="splash-text">Parsing current projects...</p>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="brand-container">
+            <div class="logo">ps1<span class="accent">.pilani</span></div>
+            <div class="nav-author">by Pratyush Goenka</div>
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html" class="nav-btn" style="text-decoration: none;" data-target="dashboard-section">Explorer</a>
+            <a href="index.html#info-section" class="nav-btn" style="text-decoration: none;" data-target="info-section">Info</a>
+            <a href="projects.html" class="nav-btn active" style="text-decoration: none;">Current Projects</a>
+        </div>
+    </nav>
+
+    <main class="section active">
+        <div class="controls-container">
+            <div class="search-row">
+                <div class="input-group full-width">
+                    <label>Search Projects</label>
+                    <input type="text" id="projectSearch" placeholder="Search by Station Name, Domain, or Keywords...">
+                </div>
+            </div>
+            
+            <div class="input-group full-width" style="margin-bottom: 1rem;">
+                <label>Eligible Degrees <span style="font-size:0.65rem; color:#888; text-transform:none;">(Select multiple. If none selected, all are shown)</span></label>
+                <div id="degreeCheckboxes" class="checkbox-group">
+                    </div>
+            </div>
+
+            <div class="filter-grid">
+                <div class="input-group">
+                    <label>Business Domain</label>
+                    <select id="domainFilter">
+                        <option value="all">All Domains</option>
+                        </select>
+                </div>
+                <div class="input-group">
+                    <label>City</label>
+                    <select id="cityFilter">
+                        <option value="all">All Cities</option>
+                        </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats-header">
+            <span id="projectCountDisplay">Waiting...</span>
+        </div>
+
+        <div id="projectsGrid" class="grid-container">
+            </div>
+    </main>
+
+    <div id="detailsModal" class="modal-overlay" onclick="closeModal(event)">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <button class="modal-close" onclick="closeModal(event)">×</button>
+            <h2 id="modal-title" style="color: #fff; margin-bottom: 0.5rem; font-size: 1.5rem;">Station Name</h2>
+            <div style="display: flex; gap: 10px; margin-bottom: 1.5rem;">
+                <span class="tag disc" id="modal-domain">Domain</span>
+                <span style="color: var(--text-secondary); font-size: 0.85rem;" id="modal-location">📍 Location</span>
+            </div>
+            
+            <h3 style="color: var(--accent-color); font-size: 1.1rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem; margin-bottom: 1rem;">Project Details & Requirements</h3>
+            
+            <div id="modal-body" class="modal-body">
+                </div>
+        </div>
+    </div>
+
+    <script src="projects.js"></script>
+</body>
+</html>
