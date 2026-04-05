@@ -26,10 +26,9 @@
             <div class="logo">ps1<span class="accent">.pilani</span></div>
             <div class="nav-author">by Pratyush Goenka</div>
         </div>
-
         <div class="nav-links">
-            <a href="index.html" class="nav-btn" style="text-decoration: none;" data-target="dashboard-section">Explorer</a>
-            <a href="index.html#info-section" class="nav-btn" style="text-decoration: none;" data-target="info-section">Info</a>
+            <a href="index.html" class="nav-btn" data-target="dashboard-section" style="text-decoration: none;">Explorer</a>
+            <a href="index.html#info-section" class="nav-btn" data-target="info-section" style="text-decoration: none;">Info</a>
             <a href="projects.html" class="nav-btn active" style="text-decoration: none;">Current Projects</a>
         </div>
     </nav>
@@ -42,25 +41,18 @@
                     <input type="text" id="projectSearch" placeholder="Search by Station Name, Domain, or Keywords...">
                 </div>
             </div>
-            
             <div class="input-group full-width" style="margin-bottom: 1rem;">
-                <label>Degrees Preferred<span style="font-size:0.65rem; color:#888; text-transform:none;">(Select multiple. If none selected, all are shown)</span></label>
-                <div id="degreeCheckboxes" class="checkbox-group">
-                    </div>
+                <label>Eligible Degrees <span style="font-size:0.65rem; color:#888; text-transform:none;">(Select multiple. If none selected, all are shown)</span></label>
+                <div id="degreeCheckboxes" class="checkbox-group"></div>
             </div>
-
             <div class="filter-grid">
                 <div class="input-group">
                     <label>Business Domain</label>
-                    <select id="domainFilter">
-                        <option value="all">All Domains</option>
-                        </select>
+                    <select id="domainFilter"><option value="all">All Domains</option></select>
                 </div>
                 <div class="input-group">
                     <label>City</label>
-                    <select id="cityFilter">
-                        <option value="all">All Cities</option>
-                        </select>
+                    <select id="cityFilter"><option value="all">All Cities</option></select>
                 </div>
             </div>
         </div>
@@ -69,8 +61,7 @@
             <span id="projectCountDisplay">Waiting...</span>
         </div>
 
-        <div id="projectsGrid" class="grid-container">
-            </div>
+        <div id="projectsGrid" class="grid-container"></div>
     </main>
 
     <div id="detailsModal" class="modal-overlay" onclick="closeModal(event)">
@@ -81,11 +72,7 @@
                 <span class="tag disc" id="modal-domain">Domain</span>
                 <span style="color: var(--text-secondary); font-size: 0.85rem;" id="modal-location">📍 Location</span>
             </div>
-            
-            <h3 style="color: var(--accent-color); font-size: 1.1rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem; margin-bottom: 1rem;">Project Details & Requirements</h3>
-            
-            <div id="modal-body" class="modal-body">
-                </div>
+            <div id="modal-body" class="modal-body"></div>
         </div>
     </div>
 

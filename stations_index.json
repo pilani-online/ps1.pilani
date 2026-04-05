@@ -1,0 +1,1618 @@
+[
+    {
+        "id": 4272,
+        "name": "Kotak Education Foundation",
+        "city": "Mumbai",
+        "domain": "Finance and Mgmt",
+        "total_req": 12,
+        "tags": []
+    },
+    {
+        "id": 4301,
+        "name": "AdaptNXT Technology Solutions Pvt. Ltd - Non Tech",
+        "city": "Bengaluru",
+        "domain": "CSIS/IT",
+        "total_req": 3,
+        "tags": []
+    },
+    {
+        "id": 4325,
+        "name": "Myoworks Private Limited",
+        "city": "Mumbai",
+        "domain": "Health Care",
+        "total_req": 2,
+        "tags": []
+    },
+    {
+        "id": 4326,
+        "name": "Myoworks Private Limited - Non tech",
+        "city": "Mumbai",
+        "domain": "Health Care",
+        "total_req": 2,
+        "tags": []
+    },
+    {
+        "id": 4344,
+        "name": "Indira Gandhi Centre for Atomic Research (IGCAR)",
+        "city": "Kalpakkam",
+        "domain": "CSIS/IT",
+        "total_req": 50,
+        "tags": []
+    },
+    {
+        "id": 4345,
+        "name": "CSIR-Central Scientific Instruments Organization",
+        "city": "Chandigarh",
+        "domain": "Electronics",
+        "total_req": 10,
+        "tags": []
+    },
+    {
+        "id": 4347,
+        "name": "Danlaw Technologies India Ltd.",
+        "city": "Goa",
+        "domain": "Electronics",
+        "total_req": 4,
+        "tags": []
+    },
+    {
+        "id": 4352,
+        "name": "CT Software Solutions",
+        "city": "Gurgaon",
+        "domain": "CSIS/IT",
+        "total_req": 10,
+        "tags": []
+    },
+    {
+        "id": 4374,
+        "name": "Mormugao Port Trust",
+        "city": "Mormugao",
+        "domain": "Infrastructure",
+        "total_req": 3,
+        "tags": []
+    },
+    {
+        "id": 4386,
+        "name": "Smartlink Holdings Ltd",
+        "city": "Goa",
+        "domain": "CSIS/IT",
+        "total_req": 4,
+        "tags": []
+    },
+    {
+        "id": 4387,
+        "name": "Petasense Technologies Private Limited-Bangalore",
+        "city": "Bengaluru",
+        "domain": "CSIS/IT",
+        "total_req": 4,
+        "tags": []
+    },
+    {
+        "id": 4398,
+        "name": "Pockvue Solutions Pvt. Ltd - Tech",
+        "city": "Bengaluru",
+        "domain": "Finance and Mgmt",
+        "total_req": 4,
+        "tags": []
+    },
+    {
+        "id": 4408,
+        "name": "AdaptNXT Technology Solutions Pvt. Ltd - Tech",
+        "city": "Bengaluru",
+        "domain": "CSIS/IT",
+        "total_req": 7,
+        "tags": []
+    },
+    {
+        "id": 4410,
+        "name": "Hyphen SCS Pvt Ltd",
+        "city": "Noida",
+        "domain": "Infrastructure",
+        "total_req": 7,
+        "tags": []
+    },
+    {
+        "id": 4415,
+        "name": "Pyrotech Electronics Pvt. Ltd.",
+        "city": "Udaipur",
+        "domain": "Mechanical",
+        "total_req": 15,
+        "tags": []
+    },
+    {
+        "id": 4418,
+        "name": "Tienda Advanced Materials Pvt. Ltd",
+        "city": "Goa",
+        "domain": "Mechanical",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 4474,
+        "name": "Hyderabad Eye Institute (DBA - L V Prasad Eye Institute)",
+        "city": "Hyderabad",
+        "domain": "Health Care",
+        "total_req": 7,
+        "tags": []
+    },
+    {
+        "id": 4475,
+        "name": "GPLAN Services Private Limited - IT",
+        "city": "Pilani",
+        "domain": "CSIS/IT",
+        "total_req": 15,
+        "tags": []
+    },
+    {
+        "id": 4480,
+        "name": "Honda Motor Cycle and Scooter India Pvt. Ltd - Manesar",
+        "city": "Gurgaon",
+        "domain": "Mechanical",
+        "total_req": 15,
+        "tags": []
+    },
+    {
+        "id": 4481,
+        "name": "Honda Motor Cycle and Scooter India Pvt. Ltd - Tapukara",
+        "city": "Alwar",
+        "domain": "Mechanical",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 4483,
+        "name": "Honda Motor Cycle and Scooter India Pvt. Ltd - Narasapura",
+        "city": "Kolar",
+        "domain": "Mechanical",
+        "total_req": 15,
+        "tags": []
+    },
+    {
+        "id": 4484,
+        "name": "Honda Motor Cycle and Scooter India Pvt. Ltd - Vithalapur",
+        "city": "Ahmedabad",
+        "domain": "Mechanical",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 4507,
+        "name": "Preto Tooling Systems",
+        "city": "Hyderabad",
+        "domain": "Mechanical",
+        "total_req": 10,
+        "tags": []
+    },
+    {
+        "id": 4511,
+        "name": "Integra Design - IT",
+        "city": "New Delhi",
+        "domain": "CSIS/IT",
+        "total_req": 2,
+        "tags": []
+    },
+    {
+        "id": 4513,
+        "name": "Lifespark Technologies Private Limited",
+        "city": "Mumbai",
+        "domain": "CSIS/IT",
+        "total_req": 10,
+        "tags": []
+    },
+    {
+        "id": 4521,
+        "name": "Airports Authority of India (AAI)",
+        "city": "Delhi",
+        "domain": "Electronics",
+        "total_req": 15,
+        "tags": []
+    },
+    {
+        "id": 4529,
+        "name": "Goa Shipyard Ltd.",
+        "city": "Goa",
+        "domain": "Electronics",
+        "total_req": 4,
+        "tags": []
+    },
+    {
+        "id": 4533,
+        "name": "DYSL - CT DRDO",
+        "city": "Chennai",
+        "domain": "CSIS/IT",
+        "total_req": 3,
+        "tags": []
+    },
+    {
+        "id": 4536,
+        "name": "National Informatics Centre (NIC)",
+        "city": "Delhi",
+        "domain": "CSIS/IT",
+        "total_req": 8,
+        "tags": []
+    },
+    {
+        "id": 4539,
+        "name": "Digital India Bhasini Division(DIBD)",
+        "city": "New Delhi",
+        "domain": "CSIS/IT",
+        "total_req": 6,
+        "tags": []
+    },
+    {
+        "id": 4543,
+        "name": "Bhabha Atomic Research Centre (BARC)",
+        "city": "Visakhapatnam",
+        "domain": "Mechanical",
+        "total_req": 2,
+        "tags": []
+    },
+    {
+        "id": 4546,
+        "name": "CSIR - National Aerospace Laboratories",
+        "city": "Bengaluru",
+        "domain": "Electronics",
+        "total_req": 2,
+        "tags": []
+    },
+    {
+        "id": 4547,
+        "name": "National e-Governance Division (NeGD)",
+        "city": "Delhi",
+        "domain": "CSIS/IT",
+        "total_req": 8,
+        "tags": []
+    },
+    {
+        "id": 4549,
+        "name": "NICSI( National Informatics Centre services Inc.)",
+        "city": "Delhi",
+        "domain": "CSIS/IT",
+        "total_req": 8,
+        "tags": []
+    },
+    {
+        "id": 4550,
+        "name": "NIXI( National Internet Exchange of India)",
+        "city": "Delhi",
+        "domain": "CSIS/IT",
+        "total_req": 8,
+        "tags": []
+    },
+    {
+        "id": 4551,
+        "name": "Indian AI",
+        "city": "Delhi",
+        "domain": "CSIS/IT",
+        "total_req": 6,
+        "tags": []
+    },
+    {
+        "id": 4553,
+        "name": "MeitY Startup Hub(MSH)",
+        "city": "Noida",
+        "domain": "Electronics",
+        "total_req": 6,
+        "tags": []
+    },
+    {
+        "id": 4561,
+        "name": "Connect Signal",
+        "city": "Jaipur",
+        "domain": "CSIS/IT",
+        "total_req": 4,
+        "tags": []
+    },
+    {
+        "id": 4562,
+        "name": "DHIO Research & Engineering Pvt. Ltd",
+        "city": "Bengaluru",
+        "domain": "Mechanical",
+        "total_req": 21,
+        "tags": []
+    },
+    {
+        "id": 4563,
+        "name": "DigiWok Media",
+        "city": "Visakhapatnam",
+        "domain": "Finance and Mgmt",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 4580,
+        "name": "Center for Materials for Electronics Technology (C-MET), Pune",
+        "city": "Pune",
+        "domain": "Electronics",
+        "total_req": 4,
+        "tags": []
+    },
+    {
+        "id": 4594,
+        "name": "National Load Despatch Centre, Grid Controller of India Limited",
+        "city": "New Delhi",
+        "domain": "CSIS/IT",
+        "total_req": 4,
+        "tags": []
+    },
+    {
+        "id": 4603,
+        "name": "NHPC Limited",
+        "city": "Faridabad",
+        "domain": "Mechanical",
+        "total_req": 2,
+        "tags": []
+    },
+    {
+        "id": 4621,
+        "name": "Ananta Medicare Limited",
+        "city": "Sriganganagar",
+        "domain": "Health Care",
+        "total_req": 10,
+        "tags": []
+    },
+    {
+        "id": 4632,
+        "name": "ONGC",
+        "city": "Surat",
+        "domain": "Mechanical",
+        "total_req": 0,
+        "tags": []
+    },
+    {
+        "id": 4635,
+        "name": "CRRI- Rigid Pavements Division",
+        "city": "New Delhi",
+        "domain": "Infrastructure",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 4637,
+        "name": "Intercontinental Consultants & Technocrats Pvt. Ltd",
+        "city": "New Delhi",
+        "domain": "Infrastructure",
+        "total_req": 8,
+        "tags": []
+    },
+    {
+        "id": 4658,
+        "name": "Multigraphics Group - Renewable Energy",
+        "city": "Delhi",
+        "domain": "CSIS/IT",
+        "total_req": 8,
+        "tags": []
+    },
+    {
+        "id": 4720,
+        "name": "Eclipse Prism Medical Device Pvt. Ltd",
+        "city": "Navi Mumbai",
+        "domain": "Mechanical",
+        "total_req": 3,
+        "tags": []
+    },
+    {
+        "id": 4735,
+        "name": "GMDC Science and Research Centre",
+        "city": "Ahmedabad",
+        "domain": "Chemical",
+        "total_req": 1,
+        "tags": []
+    },
+    {
+        "id": 4826,
+        "name": "Central Institute of Road Transport - IT",
+        "city": "Pune",
+        "domain": "Mechanical",
+        "total_req": 2,
+        "tags": []
+    },
+    {
+        "id": 4929,
+        "name": "Regional Remote Sensing Centre,Jodhpur",
+        "city": "Jodhpur",
+        "domain": "Electronics",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 4936,
+        "name": "Bhaskaracharya Institute For Space Applications And Geoinformatics,Gandhinagar",
+        "city": "Gandhinagar",
+        "domain": "CSIS/IT",
+        "total_req": 6,
+        "tags": []
+    },
+    {
+        "id": 4959,
+        "name": "Indian Red Cross Society",
+        "city": "Chandigarh",
+        "domain": "Finance and Mgmt",
+        "total_req": 10,
+        "tags": []
+    },
+    {
+        "id": 4971,
+        "name": "Indian Oil Corporation Ltd",
+        "city": "Vadodara",
+        "domain": "Electronics",
+        "total_req": 1,
+        "tags": []
+    },
+    {
+        "id": 5324,
+        "name": "Steel Authority of India Ltd. (SAIL) Bhilai Steel Plant - Bhilai",
+        "city": "Bhilai",
+        "domain": "Mechanical",
+        "total_req": 50,
+        "tags": []
+    },
+    {
+        "id": 5348,
+        "name": "Regional Remote Sensing Center-North, NRSC, ISRO - Electronics",
+        "city": "New Delhi",
+        "domain": "Others",
+        "total_req": 1,
+        "tags": []
+    },
+    {
+        "id": 5352,
+        "name": "Regional Remote Sensing Center-North, NRSC, ISRO - IT",
+        "city": "New Delhi",
+        "domain": "CSIS/IT",
+        "total_req": 6,
+        "tags": []
+    },
+    {
+        "id": 5369,
+        "name": "ASPIC Innovations Private Limited",
+        "city": "Kolkata",
+        "domain": "CSIS/IT",
+        "total_req": 3,
+        "tags": []
+    },
+    {
+        "id": 5375,
+        "name": "SimpleWorks Solutions Pvt. Ltd.",
+        "city": "Nagpur",
+        "domain": "Others",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 5380,
+        "name": "The Akshaya Patra Foundation",
+        "city": "Jaipur",
+        "domain": "Health Care",
+        "total_req": 16,
+        "tags": []
+    },
+    {
+        "id": 5399,
+        "name": "Indian Semiconductor Mission ( ISM )",
+        "city": "Delhi",
+        "domain": "Electronics",
+        "total_req": 4,
+        "tags": []
+    },
+    {
+        "id": 5403,
+        "name": "Centre for Railway Information Systems",
+        "city": "Delhi",
+        "domain": "CSIS/IT",
+        "total_req": 35,
+        "tags": []
+    },
+    {
+        "id": 5426,
+        "name": "Four Kites",
+        "city": "Chennai",
+        "domain": "CSIS/IT",
+        "total_req": 10,
+        "tags": []
+    },
+    {
+        "id": 5484,
+        "name": "Deve Herbes",
+        "city": "New Delhi",
+        "domain": "Finance and Mgmt",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 5557,
+        "name": "sfHawk \u2013 Tech",
+        "city": "Pune",
+        "domain": "CSIS/IT",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 6645,
+        "name": "National Centre for Polar and Ocean Research (NCPOR)-Application of AI and ML",
+        "city": "Goa",
+        "domain": "CSIS/IT",
+        "total_req": 2,
+        "tags": []
+    },
+    {
+        "id": 6658,
+        "name": "Technology Enabling Centre, BITS Pilani, Pilani campus",
+        "city": "Pilani",
+        "domain": "CSIS/IT",
+        "total_req": 3,
+        "tags": []
+    },
+    {
+        "id": 6661,
+        "name": "Sunmount Solutions Pvt Ltd",
+        "city": "Sirsa",
+        "domain": "Mechanical",
+        "total_req": 4,
+        "tags": []
+    },
+    {
+        "id": 6673,
+        "name": "Petasense Technologies Private Limited-Hyderabad",
+        "city": "Hyderabad",
+        "domain": "CSIS/IT",
+        "total_req": 2,
+        "tags": []
+    },
+    {
+        "id": 6675,
+        "name": "SMARTSA TECH PRIVATE LIMITED-Onsite",
+        "city": "Udaipur",
+        "domain": "Finance and Mgmt",
+        "total_req": 3,
+        "tags": []
+    },
+    {
+        "id": 6676,
+        "name": "Collegedunia - Tech",
+        "city": "Gurgaon",
+        "domain": "Finance and Mgmt",
+        "total_req": 7,
+        "tags": []
+    },
+    {
+        "id": 6690,
+        "name": "National Remote Sensing Centre",
+        "city": "Hyderabad",
+        "domain": "CSIS/IT",
+        "total_req": 10,
+        "tags": []
+    },
+    {
+        "id": 6697,
+        "name": "Techgeekz Services Private Limited",
+        "city": "Surat",
+        "domain": "CSIS/IT",
+        "total_req": 4,
+        "tags": []
+    },
+    {
+        "id": 6731,
+        "name": "Steel Authority of India Ltd. (SAIL), Delhi",
+        "city": "Delhi",
+        "domain": "CSIS/IT",
+        "total_req": 6,
+        "tags": []
+    },
+    {
+        "id": 6746,
+        "name": "Amyush Techno Solution Pvt Ltd",
+        "city": "Kota",
+        "domain": "Finance and Mgmt",
+        "total_req": 6,
+        "tags": []
+    },
+    {
+        "id": 6751,
+        "name": "Integrated Active Monitoring Pvt Ltd, Pune",
+        "city": "Pune",
+        "domain": "Electronics",
+        "total_req": 2,
+        "tags": []
+    },
+    {
+        "id": 6753,
+        "name": "Advanced Systems Laboratory, DRDO",
+        "city": "Hyderabad",
+        "domain": "Mechanical",
+        "total_req": 20,
+        "tags": []
+    },
+    {
+        "id": 6759,
+        "name": "National Stock Exchange of India Limited",
+        "city": "Mumbai",
+        "domain": "Finance and Mgmt",
+        "total_req": 4,
+        "tags": []
+    },
+    {
+        "id": 6774,
+        "name": "Heetherark Labs Private Limited - Electronics",
+        "city": "Secunderabad",
+        "domain": "CSIS/IT",
+        "total_req": 1,
+        "tags": []
+    },
+    {
+        "id": 6775,
+        "name": "Max Trantech Limited",
+        "city": "Gurgaon",
+        "domain": "Finance and Mgmt",
+        "total_req": 3,
+        "tags": []
+    },
+    {
+        "id": 6782,
+        "name": "National Institute of Electronics and Information Technology [NIELIT]",
+        "city": "Patna",
+        "domain": "Electronics",
+        "total_req": 12,
+        "tags": []
+    },
+    {
+        "id": 6847,
+        "name": "Integra Design - Electronics",
+        "city": "New Delhi",
+        "domain": "CSIS/IT",
+        "total_req": 3,
+        "tags": []
+    },
+    {
+        "id": 6855,
+        "name": "Collegedunia - Non Tech",
+        "city": "Gurgaon",
+        "domain": "Finance and Mgmt",
+        "total_req": 6,
+        "tags": []
+    },
+    {
+        "id": 6868,
+        "name": "TCG Centres for Research and Education in Science and Technology (TCG CREST)",
+        "city": "Kolkata",
+        "domain": "CSIS/IT",
+        "total_req": 4,
+        "tags": []
+    },
+    {
+        "id": 6879,
+        "name": "Siemens Digital Industries Software India Pvt Ltd",
+        "city": "Pune",
+        "domain": "CSIS/IT",
+        "total_req": 4,
+        "tags": []
+    },
+    {
+        "id": 6909,
+        "name": "CRRI- Flexible Pavements Division",
+        "city": "New Delhi",
+        "domain": "Infrastructure",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 6910,
+        "name": "CRRI- Traffic Engineering and Safety Division",
+        "city": "New Delhi",
+        "domain": "Infrastructure",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 6911,
+        "name": "CRRI- Bridge Engineering & Structures Division",
+        "city": "New Delhi",
+        "domain": "Infrastructure",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 6912,
+        "name": "CRRI- Geotechnical Engineering Division",
+        "city": "New Delhi",
+        "domain": "Infrastructure",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 6913,
+        "name": "CRRI- Computer Centre & Networking",
+        "city": "New Delhi",
+        "domain": "Infrastructure",
+        "total_req": 6,
+        "tags": []
+    },
+    {
+        "id": 6914,
+        "name": "CRRI- Planning, Monitoring & Evaluation",
+        "city": "New Delhi",
+        "domain": "Infrastructure",
+        "total_req": 6,
+        "tags": []
+    },
+    {
+        "id": 6915,
+        "name": "CRRI- Knowledge Resource Centre",
+        "city": "New Delhi",
+        "domain": "Infrastructure",
+        "total_req": 6,
+        "tags": []
+    },
+    {
+        "id": 6916,
+        "name": "CRRI- Information, Liaison and Training",
+        "city": "New Delhi",
+        "domain": "Infrastructure",
+        "total_req": 6,
+        "tags": []
+    },
+    {
+        "id": 6920,
+        "name": "Roboaviate (BotSavvy Private Limited)",
+        "city": "Ranchi",
+        "domain": "CSIS/IT",
+        "total_req": 20,
+        "tags": []
+    },
+    {
+        "id": 6925,
+        "name": "Digibuks LLP Mumbai",
+        "city": "Mumbai",
+        "domain": "CSIS/IT",
+        "total_req": 6,
+        "tags": []
+    },
+    {
+        "id": 6936,
+        "name": "Central Institute of Road Transport - Mechanical",
+        "city": "Pune",
+        "domain": "Mechanical",
+        "total_req": 2,
+        "tags": []
+    },
+    {
+        "id": 6937,
+        "name": "Central Institute of Road Transport - Electrical & Electronics",
+        "city": "Pune",
+        "domain": "Mechanical",
+        "total_req": 1,
+        "tags": []
+    },
+    {
+        "id": 6938,
+        "name": "Central Institute of Road Transport \u2013 Chemical",
+        "city": "Pune",
+        "domain": "Mechanical",
+        "total_req": 1,
+        "tags": []
+    },
+    {
+        "id": 6992,
+        "name": "Evoneural Artificial Intelligence OPC Private Limited",
+        "city": "Jaipur",
+        "domain": "CSIS/IT",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 7013,
+        "name": "Hodo stays",
+        "city": "Bengaluru",
+        "domain": "Others",
+        "total_req": 1,
+        "tags": []
+    },
+    {
+        "id": 7026,
+        "name": "Standardisation, Testing & Quality Certification Directorate (STQC), Delhi",
+        "city": "Delhi",
+        "domain": "Electronics",
+        "total_req": 0,
+        "tags": []
+    },
+    {
+        "id": 7027,
+        "name": "Semi-Conductor Laboratory (SCL), Mohali, Punjab",
+        "city": "Mohali",
+        "domain": "Electronics",
+        "total_req": 6,
+        "tags": []
+    },
+    {
+        "id": 7029,
+        "name": "Centre for High Impact Neuroscience and Translational Applications, TCG CREST",
+        "city": "Kolkata",
+        "domain": "Electronics",
+        "total_req": 1,
+        "tags": []
+    },
+    {
+        "id": 7030,
+        "name": "Thinkbyte Technologies Private Limited - Vijayawada",
+        "city": "Vijayawada",
+        "domain": "CSIS/IT",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 7093,
+        "name": "ERTL(N) - Electronics Test & Development Centre- New Delhi",
+        "city": "New Delhi",
+        "domain": "Electronics",
+        "total_req": 2,
+        "tags": []
+    },
+    {
+        "id": 7095,
+        "name": "ETDC- Electronic Test & Development Centre- Mohali",
+        "city": "Mohali",
+        "domain": "Electronics",
+        "total_req": 0,
+        "tags": []
+    },
+    {
+        "id": 7098,
+        "name": "ETDC- Electronic Test & Development Centre- Bengaluru",
+        "city": "Bengaluru",
+        "domain": "Electronics",
+        "total_req": 2,
+        "tags": []
+    },
+    {
+        "id": 7103,
+        "name": "ETDC - Electronic Test & Development Centre- Pune",
+        "city": "Pune",
+        "domain": "Electronics",
+        "total_req": 1,
+        "tags": []
+    },
+    {
+        "id": 7114,
+        "name": "ETDC - Electronic Test & Development Centre- Jaipur",
+        "city": "Jaipur",
+        "domain": "CSIS/IT",
+        "total_req": 1,
+        "tags": []
+    },
+    {
+        "id": 7118,
+        "name": "ETDC - Electronic Test & Development Centre- Hyderabad",
+        "city": "Hyderabad",
+        "domain": "Electronics",
+        "total_req": 1,
+        "tags": []
+    },
+    {
+        "id": 7183,
+        "name": "The Muthoot Group",
+        "city": "Cochin",
+        "domain": "Finance and Mgmt",
+        "total_req": 1,
+        "tags": []
+    },
+    {
+        "id": 7738,
+        "name": "Nitisara \u2013 Non Tech",
+        "city": "Gurgaon",
+        "domain": "CSIS/IT",
+        "total_req": 3,
+        "tags": []
+    },
+    {
+        "id": 8478,
+        "name": "Quinfosys Private Limited",
+        "city": "Hyderabad",
+        "domain": "CSIS/IT",
+        "total_req": 12,
+        "tags": []
+    },
+    {
+        "id": 8485,
+        "name": "THE GLOBAL MERCHANTS",
+        "city": "Jalandhar",
+        "domain": "CSIS/IT",
+        "total_req": 2,
+        "tags": []
+    },
+    {
+        "id": 8496,
+        "name": "Delhi Metro Rail Corporation (DMRC)",
+        "city": "Delhi",
+        "domain": "Mechanical",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 8497,
+        "name": "Pinnacle Industrial Controls Pvt Ltd",
+        "city": "Mumbai",
+        "domain": "CSIS/IT",
+        "total_req": 8,
+        "tags": []
+    },
+    {
+        "id": 8498,
+        "name": "The Affordable Organic Store",
+        "city": "Hyderabad",
+        "domain": "Finance and Mgmt",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 8499,
+        "name": "IRCTC",
+        "city": "New Delhi",
+        "domain": "Finance and Mgmt",
+        "total_req": 10,
+        "tags": []
+    },
+    {
+        "id": 8503,
+        "name": "PerfectQA LLP",
+        "city": "Ahmedabad",
+        "domain": "CSIS/IT",
+        "total_req": 4,
+        "tags": []
+    },
+    {
+        "id": 8504,
+        "name": "Lailen Consulting Pvt. Ltd",
+        "city": "Aizawl",
+        "domain": "CSIS/IT",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 8505,
+        "name": "NDR Warehousing",
+        "city": "Goa",
+        "domain": "Mechanical",
+        "total_req": 2,
+        "tags": []
+    },
+    {
+        "id": 8508,
+        "name": "Bid Alert - Tech",
+        "city": "Guntur",
+        "domain": "Finance and Mgmt",
+        "total_req": 30,
+        "tags": []
+    },
+    {
+        "id": 8509,
+        "name": "Bid alert - Non Tech",
+        "city": "Guntur",
+        "domain": "Finance and Mgmt",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 8510,
+        "name": "505 Army Base Workshop",
+        "city": "Delhi",
+        "domain": "Others",
+        "total_req": 25,
+        "tags": []
+    },
+    {
+        "id": 8513,
+        "name": "Thinkbyte Technologies Private Limited",
+        "city": "Bengaluru",
+        "domain": "CSIS/IT",
+        "total_req": 2,
+        "tags": []
+    },
+    {
+        "id": 8514,
+        "name": "Center for Materials for Electronics Technology (C-MET), Hyderabad",
+        "city": "Hyderabad",
+        "domain": "Electronics",
+        "total_req": 4,
+        "tags": []
+    },
+    {
+        "id": 8515,
+        "name": "Center for DNA Fingerprinting and Diagnostics",
+        "city": "Hyderabad",
+        "domain": "Others",
+        "total_req": 10,
+        "tags": []
+    },
+    {
+        "id": 8519,
+        "name": "Vankal Agri Solutions Pvt. Ltd.",
+        "city": "Jaipur",
+        "domain": "Finance and Mgmt",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 8520,
+        "name": "Vrundavan children hospital",
+        "city": "Ahmedabad",
+        "domain": "Health Care",
+        "total_req": 10,
+        "tags": []
+    },
+    {
+        "id": 8521,
+        "name": "Digibuks LLP  Noida",
+        "city": "Noida",
+        "domain": "CSIS/IT",
+        "total_req": 6,
+        "tags": []
+    },
+    {
+        "id": 8523,
+        "name": "ATMANIRBHAR SASHAKT JEEVAN SANSTHAN (DBA: Atmanirbhar.NGO)",
+        "city": "Jaipur",
+        "domain": "CSIS/IT",
+        "total_req": 15,
+        "tags": []
+    },
+    {
+        "id": 8530,
+        "name": "Rane Madras Limited - Brake Components Division - Ambattur,chennai",
+        "city": "Ambattur",
+        "domain": "CSIS/IT",
+        "total_req": 6,
+        "tags": []
+    },
+    {
+        "id": 8531,
+        "name": "Rane Madras Limited - Brake Components Division - Pondicherry",
+        "city": "Puducherry",
+        "domain": "CSIS/IT",
+        "total_req": 1,
+        "tags": []
+    },
+    {
+        "id": 8532,
+        "name": "Rane Madras Limited - Brake Components Division - Trichy",
+        "city": "Tiruchirappalli",
+        "domain": "CSIS/IT",
+        "total_req": 3,
+        "tags": []
+    },
+    {
+        "id": 8533,
+        "name": "Rane Group-Chennai",
+        "city": "Ambattur",
+        "domain": "CSIS/IT",
+        "total_req": 4,
+        "tags": []
+    },
+    {
+        "id": 8534,
+        "name": "Rane Group-Bawal, Haryana",
+        "city": "Bawal",
+        "domain": "CSIS/IT",
+        "total_req": 1,
+        "tags": []
+    },
+    {
+        "id": 8539,
+        "name": "Enboarder",
+        "city": "Noida",
+        "domain": "Others",
+        "total_req": 3,
+        "tags": []
+    },
+    {
+        "id": 8547,
+        "name": "Haryana Power Generation Corporation",
+        "city": "Hisar",
+        "domain": "Electronics",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 8548,
+        "name": "Nichebit Softech Pvt. Ltd.",
+        "city": "Hyderabad",
+        "domain": "CSIS/IT",
+        "total_req": 10,
+        "tags": []
+    },
+    {
+        "id": 8549,
+        "name": "Inc42 Media",
+        "city": "Delhi",
+        "domain": "Finance and Mgmt",
+        "total_req": 2,
+        "tags": []
+    },
+    {
+        "id": 8553,
+        "name": "Sarvika Technology Pvt Ltd",
+        "city": "Jaipur",
+        "domain": "CSIS/IT",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 8554,
+        "name": "Kelachandra Aquatic Machines",
+        "city": "Kottayam",
+        "domain": "CSIS/IT",
+        "total_req": 10,
+        "tags": []
+    },
+    {
+        "id": 8555,
+        "name": "Indian National Centre for Ocean Information Services (INCOIS)",
+        "city": "Hyderabad",
+        "domain": "CSIS/IT",
+        "total_req": 2,
+        "tags": []
+    },
+    {
+        "id": 8556,
+        "name": "TIF Labs Pvt. Ltd",
+        "city": "Bengaluru",
+        "domain": "CSIS/IT",
+        "total_req": 3,
+        "tags": []
+    },
+    {
+        "id": 8559,
+        "name": "Induma Infratech pvt ltd.",
+        "city": "Noida",
+        "domain": "Finance and Mgmt",
+        "total_req": 10,
+        "tags": []
+    },
+    {
+        "id": 8561,
+        "name": "RRSC",
+        "city": "Nagapur",
+        "domain": "Electronics",
+        "total_req": 2,
+        "tags": []
+    },
+    {
+        "id": 8564,
+        "name": "Compliance Sutras Technologies Private Limited",
+        "city": "Bengaluru",
+        "domain": "CSIS/IT",
+        "total_req": 7,
+        "tags": []
+    },
+    {
+        "id": 8565,
+        "name": "Patratu Vidyut Utpadan Nigam Ltd.",
+        "city": "Ramgarh",
+        "domain": "CSIS/IT",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 8567,
+        "name": "LOHUM Cleantech Private Limited",
+        "city": "Greater Noida",
+        "domain": "Finance and Mgmt",
+        "total_req": 1,
+        "tags": []
+    },
+    {
+        "id": 8568,
+        "name": "Saikrishna & Associates",
+        "city": "Noida",
+        "domain": "CSIS/IT",
+        "total_req": 4,
+        "tags": []
+    },
+    {
+        "id": 8570,
+        "name": "Bikaner Ceramics Pvt. Ltd",
+        "city": "Bikaner",
+        "domain": "Chemical",
+        "total_req": 10,
+        "tags": []
+    },
+    {
+        "id": 8573,
+        "name": "BHUMI",
+        "city": "Chennai",
+        "domain": "Finance and Mgmt",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 8574,
+        "name": "IBizCatalyst Venture Pvt Ltd (AiRoHire.ai)",
+        "city": "Bengaluru",
+        "domain": "CSIS/IT",
+        "total_req": 10,
+        "tags": []
+    },
+    {
+        "id": 8575,
+        "name": "Ornate Agencies Private Limited",
+        "city": "Delhi",
+        "domain": "Electronics",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 8576,
+        "name": "Nirmal Bang-Jaipur - Rajasthan",
+        "city": "Jaipur",
+        "domain": "Finance and Mgmt",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 8577,
+        "name": "Nirmal Bang - Ajmer\u00a0 - Rajasthan",
+        "city": "Ajmer",
+        "domain": "Finance and Mgmt",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 8578,
+        "name": "Nirmal Bang - Bhilwara, Rajasthan",
+        "city": "Jaipur",
+        "domain": "Finance and Mgmt",
+        "total_req": 2,
+        "tags": []
+    },
+    {
+        "id": 8579,
+        "name": "Nirmal Bang -Kota - Rajasthan",
+        "city": "Jaipur",
+        "domain": "Finance and Mgmt",
+        "total_req": 2,
+        "tags": []
+    },
+    {
+        "id": 8580,
+        "name": "BSNL Zira",
+        "city": "Firozpur",
+        "domain": "Electronics",
+        "total_req": 10,
+        "tags": []
+    },
+    {
+        "id": 8586,
+        "name": "CSIR - Central Electronics Engineering Research Institute (CEERI) - Pilani",
+        "city": "Pilani",
+        "domain": "Electronics",
+        "total_req": 90,
+        "tags": []
+    },
+    {
+        "id": 8587,
+        "name": "CSIR - Central Electronics Engineering Research Institute (CEERI)- Jaipur",
+        "city": "Jaipur",
+        "domain": "Electronics",
+        "total_req": 20,
+        "tags": []
+    },
+    {
+        "id": 8588,
+        "name": "Runverve Pvt Ltd",
+        "city": "Pilani",
+        "domain": "CSIS/IT",
+        "total_req": 12,
+        "tags": []
+    },
+    {
+        "id": 8593,
+        "name": "Teach For India",
+        "city": "Chennai",
+        "domain": "Finance and Mgmt",
+        "total_req": 65,
+        "tags": []
+    },
+    {
+        "id": 8594,
+        "name": "ATRIBS GLOBAL - SWOT DIGINXT P LTD",
+        "city": "Chennai",
+        "domain": "Infrastructure",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 8600,
+        "name": "Centre for Development of Advanced Computing (CDAC) - Thiruvananthapuram",
+        "city": "Thiruvananthapuram",
+        "domain": "CSIS/IT",
+        "total_req": 4,
+        "tags": []
+    },
+    {
+        "id": 8607,
+        "name": "Shrreeji Sharan",
+        "city": "Mumbai",
+        "domain": "Infrastructure",
+        "total_req": 10,
+        "tags": []
+    },
+    {
+        "id": 8608,
+        "name": "National Atmospheric Research Laboratory",
+        "city": "Gadanki, Chittoor District,",
+        "domain": "Electronics",
+        "total_req": 10,
+        "tags": []
+    },
+    {
+        "id": 8610,
+        "name": "Nouveau Labs Pvt Ltd",
+        "city": "Bengaluru",
+        "domain": "CSIS/IT",
+        "total_req": 3,
+        "tags": []
+    },
+    {
+        "id": 8611,
+        "name": "Blueinfy Solutions Pvt. Ltd",
+        "city": "Ahmedabad",
+        "domain": "CSIS/IT",
+        "total_req": 3,
+        "tags": []
+    },
+    {
+        "id": 8613,
+        "name": "National Centre for Polar and Ocean Research (NCPOR) -Causal analysis",
+        "city": "Goa",
+        "domain": "Others",
+        "total_req": 1,
+        "tags": []
+    },
+    {
+        "id": 8614,
+        "name": "PRIMESTEELTECH IND PVT LTD",
+        "city": "Mumbai",
+        "domain": "Infrastructure",
+        "total_req": 10,
+        "tags": []
+    },
+    {
+        "id": 8616,
+        "name": "National Centre for Polar and Ocean Research (NCPOR)-Marine Chemistry/Geochemistry",
+        "city": "Goa",
+        "domain": "Others",
+        "total_req": 2,
+        "tags": []
+    },
+    {
+        "id": 8617,
+        "name": "National Centre for Polar and Ocean Research (NCPOR)-Microbiology and Biogeochemistry",
+        "city": "Goa",
+        "domain": "CSIS/IT",
+        "total_req": 2,
+        "tags": []
+    },
+    {
+        "id": 8618,
+        "name": "National Centre for Polar and Ocean Research (NCPOR) -Integration of Neural Network Models with WRF/ROMS",
+        "city": "Goa",
+        "domain": "CSIS/IT",
+        "total_req": 6,
+        "tags": []
+    },
+    {
+        "id": 8619,
+        "name": "Devoir Lifesciences",
+        "city": "Ludhiana",
+        "domain": "Chemical",
+        "total_req": 10,
+        "tags": []
+    },
+    {
+        "id": 8620,
+        "name": "ONGC, Delhi",
+        "city": "New Delhi",
+        "domain": "Infrastructure",
+        "total_req": 12,
+        "tags": []
+    },
+    {
+        "id": 8621,
+        "name": "ONGC, Dehradun",
+        "city": "Dehradun",
+        "domain": "Infrastructure",
+        "total_req": 6,
+        "tags": []
+    },
+    {
+        "id": 8625,
+        "name": "ONGC, Ahmedabad",
+        "city": "New Delhi",
+        "domain": "Infrastructure",
+        "total_req": 6,
+        "tags": []
+    },
+    {
+        "id": 8626,
+        "name": "Pratham Education Foundation-Bengaluru",
+        "city": "Bengaluru",
+        "domain": "Finance and Mgmt",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 8627,
+        "name": "Pratham Education Foundation-Mysuru",
+        "city": "Mysore",
+        "domain": "Finance and Mgmt",
+        "total_req": 3,
+        "tags": []
+    },
+    {
+        "id": 8628,
+        "name": "Pratham Education Foundation-Koppal",
+        "city": "Koppal",
+        "domain": "Finance and Mgmt",
+        "total_req": 2,
+        "tags": []
+    },
+    {
+        "id": 8631,
+        "name": "Varistor Technologies Pvt. Ltd.",
+        "city": "Bengaluru",
+        "domain": "Finance and Mgmt",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 8632,
+        "name": "FlairX Networks",
+        "city": "Bangalore",
+        "domain": "CSIS/IT",
+        "total_req": 10,
+        "tags": []
+    },
+    {
+        "id": 8633,
+        "name": "Krishavaa Lifesciences Pvt.Ltd",
+        "city": "Hyderabad",
+        "domain": "Infrastructure",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 8636,
+        "name": "Maritime Research Center, Foundation for Underwater Domain Awareeness",
+        "city": "Pune",
+        "domain": "CSIS/IT",
+        "total_req": 20,
+        "tags": []
+    },
+    {
+        "id": 8637,
+        "name": "1Buy.Ai (Sharpbuy Global Solutions Pvt Ltd)",
+        "city": "New Delhi",
+        "domain": "CSIS/IT",
+        "total_req": 2,
+        "tags": []
+    },
+    {
+        "id": 8638,
+        "name": "Steel Authority of India Ltd. (SAIL), Ranchi",
+        "city": "Ranchi",
+        "domain": "Chemical",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 8639,
+        "name": "Aivid Techvision",
+        "city": "Ahmedabad",
+        "domain": "Finance and Mgmt",
+        "total_req": 6,
+        "tags": []
+    },
+    {
+        "id": 8640,
+        "name": "Steel Authority of India Ltd. (SAIL), Kolkata",
+        "city": "Kolkata",
+        "domain": "Chemical",
+        "total_req": 2,
+        "tags": []
+    },
+    {
+        "id": 8641,
+        "name": "Oh Bhaisahab Experiences",
+        "city": "Dehradun",
+        "domain": "CSIS/IT",
+        "total_req": 4,
+        "tags": []
+    },
+    {
+        "id": 8642,
+        "name": "VNR Seeds Pvt Ltd",
+        "city": "Raipur",
+        "domain": "CSIS/IT",
+        "total_req": 4,
+        "tags": []
+    },
+    {
+        "id": 8644,
+        "name": "Brahmaputra Bridge Construction Sub-Division-III",
+        "city": "Kamrup",
+        "domain": "Infrastructure",
+        "total_req": 10,
+        "tags": []
+    },
+    {
+        "id": 8645,
+        "name": "Centre for Railway Information Systems, Secunderabad",
+        "city": "Secunderabad",
+        "domain": "CSIS/IT",
+        "total_req": 4,
+        "tags": []
+    },
+    {
+        "id": 8647,
+        "name": "Department of Agriculture",
+        "city": "Panaji",
+        "domain": "Others",
+        "total_req": 6,
+        "tags": []
+    },
+    {
+        "id": 8648,
+        "name": "Adani Natural Resources",
+        "city": "Ahmedabad",
+        "domain": "Finance and Mgmt",
+        "total_req": 1,
+        "tags": []
+    },
+    {
+        "id": 8649,
+        "name": "Neovant Therapeutics Pvt Ltd",
+        "city": "Ahmedabad",
+        "domain": "Health Care",
+        "total_req": 5,
+        "tags": []
+    },
+    {
+        "id": 8650,
+        "name": "Amritatva Farm - Digital Marketing & Content Strategy",
+        "city": "New Delhi",
+        "domain": "Finance and Mgmt",
+        "total_req": 3,
+        "tags": []
+    },
+    {
+        "id": 8651,
+        "name": "Amritatva Farm - Market Expansion & Business Development-Delhi",
+        "city": "New Delhi",
+        "domain": "Finance and Mgmt",
+        "total_req": 2,
+        "tags": []
+    },
+    {
+        "id": 8652,
+        "name": "Amritatva Farm - Market Expansion & Business Development-Hyderabad",
+        "city": "Hyderabad",
+        "domain": "Finance and Mgmt",
+        "total_req": 2,
+        "tags": []
+    },
+    {
+        "id": 8653,
+        "name": "Amritatva Farm - Market Expansion & Business Development-Mumbai",
+        "city": "Mumbai",
+        "domain": "Finance and Mgmt",
+        "total_req": 0,
+        "tags": []
+    },
+    {
+        "id": 8654,
+        "name": "Amritatva Farm - Market Expansion & Business Development-Bengaluru",
+        "city": "Bengaluru",
+        "domain": "Finance and Mgmt",
+        "total_req": 2,
+        "tags": []
+    }
+]

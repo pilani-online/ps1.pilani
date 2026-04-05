@@ -17,6 +17,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- REVIEWS DATA STRUCTURE ---
     const reviewsData = {
+        "2025": [
+            "2025 Chronicles - Chemical Mechanical Infrastructure Manufacturing and Others.pdf",
+            "2025 Chronicles - IT.pdf",
+            "2025 Chronicles - HealthCare.pdf",
+            "2025 Chronicles - Finance and Management.pdf",
+            "2025 Chronicles - Electronics.pdf"
+        ],
         "2024": [
             "2024 Chronicles - Core Fields.pdf",
             "2024 Chronicles - CSIR and Government Research Labs.pdf",
