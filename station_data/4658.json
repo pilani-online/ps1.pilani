@@ -31,7 +31,7 @@
     "pstypeId": 1,
     "associationDateText": "2017",
     "incorporationYear": "1995",
-    "newProblemBankExists": true,
+    "newProblemBankExists": false,
     "problemBankExists": true,
     "otherPstypeExists": false,
     "domainId": 1,
@@ -168,27 +168,6 @@
         "psTypeId": 1,
         "psTypeName": "PS I",
         "semesterId": null,
-        "status": null,
-        "createdBy": "planning@bits.com"
-      },
-      "projects": []
-    },
-    {
-      "problem_bank": {
-        "stationId": 4658,
-        "stationName": "Multigraphics Group - Renewable Energy",
-        "parentStationName": "Multigraphics Group",
-        "stationCity": "Delhi",
-        "problemBankId": 6044,
-        "businessDomain": "CSIS/IT",
-        "totalFemalRequirement": 0,
-        "totalMaleRequirement": 0,
-        "totalRequirement": 8,
-        "noOfProject": 1,
-        "batchId": 17,
-        "psTypeId": 1,
-        "psTypeName": "PS I",
-        "semesterId": 0,
         "status": null,
         "createdBy": "planning@bits.com"
       },

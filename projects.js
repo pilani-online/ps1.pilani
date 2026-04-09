@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const cityFilter = document.getElementById('cityFilter');
     const degreeCheckboxesContainer = document.getElementById('degreeCheckboxes');
 
-    // Helper to strip raw HTML tags out of JSON strings
     function stripHtml(html) {
         if (!html) return '';
         let tmp = document.createElement("DIV");
@@ -17,17 +16,16 @@ document.addEventListener('DOMContentLoaded', () => {
         return tmp.textContent || tmp.innerText || "";
     }
 
-    // 1. Fetch the index file to know which JSON files actually exist
-    fetch('stations_index.json')
+    // 1. Fetch the tiny whitelist of valid IDs first
+    fetch('valid_stations.json')
         .then(res => {
-            if (!res.ok) throw new Error("stations_index.json not found");
+            if (!res.ok) throw new Error("valid_stations.json not found");
             return res.json();
         })
-        .then(indexData => {
-            // Create a Set of valid Station IDs
-            const validIds = new Set(indexData.map(s => String(s.id)));
+        .then(validIdsArray => {
+            const validIds = new Set(validIdsArray.map(String)); // Convert to Set for fast lookup
 
-            // 2. Parse the CSV file and filter it against the valid IDs
+            // 2. Now parse the CSV
             Papa.parse("List of stations with project titles and description - April 4th, 2026.xlsx - Sheet1.csv", {
                 download: true,
                 header: true,
@@ -35,10 +33,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 complete: function(results) {
                     const invalidTags = ['any', 'n/a', 'na', 'none', 'null', 'undefined', ''];
                     
-                    // ONLY keep stations that exist in station_data folder
-                    let allowedCsvProjects = results.data.filter(row => row['Station Id'] && validIds.has(String(row['Station Id'])));
+                    // FILTER: Only keep CSV rows whose 'Station Id' exists in our valid folder
+                    const allowedProjects = results.data.filter(row => {
+                        return row['Station Id'] && validIds.has(String(row['Station Id']));
+                    });
                     
-                    allProjects = allowedCsvProjects.map(p => {
+                    allProjects = allowedProjects.map(p => {
                         let rawTags = p['Tags'] ? p['Tags'].split(',') : [];
                         let isSingleDegree = false;
                         let isDualDegree = false;
@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(err => {
             console.error("Error:", err);
-            projectsGrid.innerHTML = '<div style="color:red; text-align:center; padding:2rem;">Error loading index file. Ensure build_index.py was run.</div>';
+            projectsGrid.innerHTML = '<div style="color:red; text-align:center; padding:2rem;">Error loading valid_stations.json. Ensure build_valid_ids.py was run.</div>';
             hideSplash();
         });
 
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }, remaining);
     }
 
-    // 2. Initialize Filters
+    // 3. Initialize Filters
     function initializeFilters() {
         const domains = new Set();
         const cities = new Set();
@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // 3. Render Cards
+    // 4. Render Cards
     function renderProjects(projects) {
         projectsGrid.innerHTML = '';
         countDisplay.textContent = `${projects.length} Stations Available`;
@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', () => {
         projectsGrid.appendChild(fragment);
     }
 
-    // 4. Filtering
+    // 5. Filtering
     function applyFilters() {
         const searchVal = searchInput.value.toLowerCase();
         const selDomain = domainFilter.value;
@@ -219,7 +219,7 @@ document.addEventListener('DOMContentLoaded', () => {
     domainFilter.addEventListener('change', applyFilters);
     cityFilter.addEventListener('change', applyFilters);
 
-    // 5. FETCH FULL JSON ON CLICK + EXTRA CSV DATA
+    // 6. ON DEMAND JSON FETCH + CSV MERGE (CONTACTS HIDDEN)
     window.openModal = function(stationCsvData) {
         document.getElementById('modal-title').textContent = stationCsvData['Station Name'];
         document.getElementById('modal-location').textContent = `📍 ${stationCsvData['Location (Centre)']}`;
@@ -277,7 +277,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     html += `<hr style="border:0; border-top:1px solid #333; margin:1.5rem 0;">`;
                 }
 
-                // C. PROJECTS (Display all projects from the latest problem bank)
+                // C. PROJECTS (From JSON)
                 let latest_pb = null;
                 if (pbs.length > 0) {
                     latest_pb = pbs.sort((a, b) => (b.problem_bank?.batchId || 0) - (a.problem_bank?.batchId || 0))[0];
@@ -311,10 +311,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     });
                 }
 
-                // D. APPEND EXTRA CSV DETAILS (If available)
+                // D. APPEND EXTRA CSV DETAILS
                 const hasCsvExtra = stationCsvData['Title'] || stationCsvData['Project Domain'] || stationCsvData['Description'];
                 if (hasCsvExtra) {
-                    html += `<h3 style="color:#fff; margin-top: 2.5rem; margin-bottom:1rem; padding-bottom:0.5rem; border-bottom:1px solid #333;">Additional Overview</h3>`;
+                    html += `<h3 style="color:#fff; margin-top: 2.5rem; margin-bottom:1rem; padding-bottom:0.5rem; border-bottom:1px solid #333;">Additional Overview (Sheets Data)</h3>`;
                     html += `<div style="background: rgba(247, 201, 72, 0.05); padding: 1.25rem; border-radius: 8px; border: 1px solid rgba(247, 201, 72, 0.2); margin-bottom: 1.25rem;">`;
                     
                     if (stationCsvData['Title']) {
@@ -338,7 +338,7 @@ document.addEventListener('DOMContentLoaded', () => {
             })
             .catch(err => {
                 console.error(err);
-                bodyEl.innerHTML = `<div style="color:red; text-align:center; padding:2rem;">Failed to fetch specific station data.</div>`;
+                bodyEl.innerHTML = `<div style="color:red; text-align:center; padding:2rem;">Failed to load JSON data for this station.</div>`;
             });
     };
 
