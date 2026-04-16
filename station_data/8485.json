@@ -1,7 +1,7 @@
 {
   "station_basic": {
     "stationId": 8485,
-    "stationName": "THE GLOBAL MERCHANTS",
+    "stationName": "THE GLOBAL MERCHANTS - Onsite",
     "cityId": 121440,
     "city": "Jalandhar",
     "accomodation": "null",
@@ -19,7 +19,7 @@
   },
   "station_details": {
     "stationId": 8485,
-    "stationName": "THE GLOBAL MERCHANTS",
+    "stationName": "THE GLOBAL MERCHANTS - Onsite",
     "contactEstablishmentId": 2,
     "companyDescription": "<p>--</p>",
     "stationContactNumber": "9815400246",
@@ -88,14 +88,14 @@
     {
       "problem_bank": {
         "stationId": 8485,
-        "stationName": "THE GLOBAL MERCHANTS",
+        "stationName": "THE GLOBAL MERCHANTS - Onsite",
         "parentStationName": "THE GLOBAL MERCHANTS",
         "stationCity": "Jalandhar",
         "problemBankId": 8164,
         "businessDomain": "CSIS/IT",
         "totalFemalRequirement": 0,
         "totalMaleRequirement": 0,
-        "totalRequirement": 2,
+        "totalRequirement": 0,
         "noOfProject": 2,
         "batchId": 17,
         "psTypeId": 1,
