@@ -16,29 +16,52 @@ document.addEventListener('DOMContentLoaded', () => {
         return tmp.textContent || tmp.innerText || "";
     }
 
-    // 1. Fetch the tiny whitelist of valid IDs first
-    fetch('valid_stations.json')
+    // 1. Fetch the full list of stations from the JSON folder index
+    fetch('stations_index.json')
         .then(res => {
-            if (!res.ok) throw new Error("valid_stations.json not found");
+            if (!res.ok) throw new Error("stations_index.json not found");
             return res.json();
         })
-        .then(validIdsArray => {
-            const validIds = new Set(validIdsArray.map(String)); // Convert to Set for fast lookup
+        .then(indexData => {
+            
+            // Map the JSON stations into base objects
+            let projectsMap = new Map();
+            indexData.forEach(item => {
+                projectsMap.set(String(item.id), {
+                    'Station Id': String(item.id),
+                    'Station Name': item.name,
+                    'Location (Centre)': item.city,
+                    'Business Domain': item.domain,
+                    'Total Project': item.total_req,
+                    'Tags': '', 
+                    'Title': '',
+                    'Description': '',
+                    'Project Domain': ''
+                });
+            });
 
-            // 2. Now parse the CSV
+            // 2. Parse the CSV to inject tags and extra details into the JSON objects
             Papa.parse("List of stations with project titles and description - April 4th, 2026.xlsx - Sheet1.csv", {
                 download: true,
                 header: true,
                 skipEmptyLines: true,
                 complete: function(results) {
+                    
+                    // Merge CSV data where IDs match
+                    results.data.forEach(row => {
+                        let id = String(row['Station Id']);
+                        if (projectsMap.has(id)) {
+                            let proj = projectsMap.get(id);
+                            proj['Tags'] = row['Tags'] || '';
+                            proj['Title'] = row['Title'] || '';
+                            proj['Description'] = row['Description'] || '';
+                            proj['Project Domain'] = row['Project Domain'] || '';
+                        }
+                    });
+
                     const invalidTags = ['any', 'n/a', 'na', 'none', 'null', 'undefined', ''];
                     
-                    // FILTER: Only keep CSV rows whose 'Station Id' exists in our valid folder
-                    const allowedProjects = results.data.filter(row => {
-                        return row['Station Id'] && validIds.has(String(row['Station Id']));
-                    });
-                    
-                    allProjects = allowedProjects.map(p => {
+                    allProjects = Array.from(projectsMap.values()).map(p => {
                         let rawTags = p['Tags'] ? p['Tags'].split(',') : [];
                         let isSingleDegree = false;
                         let isDualDegree = false;
@@ -83,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(err => {
             console.error("Error:", err);
-            projectsGrid.innerHTML = '<div style="color:red; text-align:center; padding:2rem;">Error loading valid_stations.json. Ensure build_valid_ids.py was run.</div>';
+            projectsGrid.innerHTML = '<div style="color:red; text-align:center; padding:2rem;">Error loading valid_stations.json. Ensure build_index.py was run.</div>';
             hideSplash();
         });
 
@@ -157,7 +180,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const card = document.createElement('div');
             card.className = 'card';
             card.style.cursor = 'pointer';
-            
             card.onclick = () => openModal(p);
 
             let displayTagsHtml = p.displayTags.map(tagText => {
@@ -175,6 +197,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 discHtml = `<span class="tag disc">${p['Business Domain']}</span>`;
             }
 
+            const totalProjects = p['Total Project'] === 0 ? 'TBD' : p['Total Project'];
+
             card.innerHTML = `
                 <div class="card-header">
                     <div class="card-title" style="font-size: 1.05rem;">${p['Station Name']}</div>
@@ -183,7 +207,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
                 <div class="card-footer" style="margin-top: auto;">
                     <div class="cutoff-label">Required Students</div>
-                    <div class="cutoff-val" style="font-size: 1rem;">${p['Total Project'] || 'TBD'}</div>
+                    <div class="cutoff-val" style="font-size: 1rem;">${totalProjects}</div>
                 </div>
             `;
             fragment.appendChild(card);
@@ -219,7 +243,7 @@ document.addEventListener('DOMContentLoaded', () => {
     domainFilter.addEventListener('change', applyFilters);
     cityFilter.addEventListener('change', applyFilters);
 
-    // 6. ON DEMAND JSON FETCH + CSV MERGE (CONTACTS HIDDEN)
+    // 6. ON DEMAND JSON FETCH + CSV MERGE (CONTACTS STRICTLY HIDDEN)
     window.openModal = function(stationCsvData) {
         document.getElementById('modal-title').textContent = stationCsvData['Station Name'];
         document.getElementById('modal-location').textContent = `📍 ${stationCsvData['Location (Centre)']}`;
@@ -230,7 +254,6 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('detailsModal').style.display = 'flex';
         document.body.style.overflow = 'hidden'; 
 
-        // Fetch the raw JSON from the folder based on ID
         fetch(`station_data/${stationCsvData['Station Id']}.json`)
             .then(res => {
                 if (!res.ok) throw new Error("JSON file not found");
@@ -245,7 +268,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 // A. METADATA ROW
                 html += `<div style="display:flex; gap: 1.5rem; margin-bottom: 1.5rem; flex-wrap: wrap; font-size: 0.9rem;">`;
                 
-                // Validate Website
                 if (details.websiteAddress) {
                     let websiteUrl = details.websiteAddress.trim();
                     let checkUrl = websiteUrl.replace(/^https?:\/\//i, '').toLowerCase(); 
@@ -255,11 +277,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 }
                 
-                if (details.associationDateText && details.associationDateText !== "null") {
+                if (details.incorporationYear && details.incorporationYear !== "null") {
+                    html += `<span style="color:#aaa;">🏢 Est. ${details.incorporationYear}</span>`;
+                } else if (details.associationDateText && details.associationDateText !== "null") {
                     html += `<span style="color:#aaa;">📅 Associated Since: ${details.associationDateText}</span>`;
                 }
+                
                 if (basic.accomodation && basic.accomodation !== "null") {
-                    html += `<span style="color:#aaa;">🏠 Accommodation: ${basic.accomodation}</span>`;
+                    html += `<span style="color:#aaa;">🏠 Accomm: ${basic.accomodation}</span>`;
                 }
                 html += `</div>`;
 
@@ -284,7 +309,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
 
                 if (latest_pb && latest_pb.projects && latest_pb.projects.length > 0) {
-                    html += `<h3 style="color:#fff; margin-bottom:1rem; padding-bottom:0.5rem; border-bottom:1px solid #333;">Available Projects</h3>`;
+                    html += `<h3 style="color:#fff; margin-bottom:1rem; padding-bottom:0.5rem; border-bottom:1px solid #333;">Available Projects & Requirements</h3>`;
                     
                     latest_pb.projects.forEach(proj => {
                         html += `<div style="background: rgba(255,255,255,0.03); padding: 1.25rem; border-radius: 8px; margin-bottom: 1.25rem; border: 1px solid #2a2a2a;">`;
@@ -295,8 +320,18 @@ document.addEventListener('DOMContentLoaded', () => {
                         if (proj.projectDomain && proj.projectDomain !== "null") {
                             html += `<p style="margin-bottom:0.5rem;"><strong style="color:#F7C948;">Domain:</strong> ${proj.projectDomain}</p>`;
                         }
+                        
+                        // NEW: Core Requirements (from new JSON structure)
+                        let reqs = [];
+                        if (proj.totalProjectRequirement) reqs.push(`${proj.totalProjectRequirement} Students`);
+                        if (proj.sem_1_Requirement > 0) reqs.push(`Sem 1: ${proj.sem_1_Requirement}`);
+                        if (proj.sem_2_Requirement > 0) reqs.push(`Sem 2: ${proj.sem_2_Requirement}`);
+                        if (reqs.length > 0) {
+                            html += `<p style="margin-bottom:0.5rem; color:#A5D6A7;"><strong style="color:#F7C948;">Intake:</strong> ${reqs.join(' | ')}</p>`;
+                        }
+
                         if (proj.projectDescription && proj.projectDescription !== "null") {
-                            html += `<p style="margin-bottom:0.5rem;"><strong style="color:#F7C948;">Description:</strong><br><span style="color:#ddd; white-space:pre-wrap;">${stripHtml(proj.projectDescription)}</span></p>`;
+                            html += `<p style="margin-bottom:0.5rem; margin-top:1rem;"><strong style="color:#F7C948;">Description:</strong><br><span style="color:#ddd; white-space:pre-wrap;">${stripHtml(proj.projectDescription)}</span></p>`;
                         }
                         if (proj.skillSets && proj.skillSets !== "null") {
                             html += `<p style="margin-bottom:0.5rem;"><strong style="color:#F7C948;">Skill Sets:</strong> ${stripHtml(proj.skillSets)}</p>`;
@@ -304,24 +339,58 @@ document.addEventListener('DOMContentLoaded', () => {
                         if (proj.expectedLearning && proj.expectedLearning !== "null") {
                             html += `<p style="margin-bottom:0.5rem;"><strong style="color:#F7C948;">Expected Learning:</strong> ${stripHtml(proj.expectedLearning)}</p>`;
                         }
+
+                        // NEW: Perks & Allowances Grid
+                        html += `<div style="margin-top: 1rem; padding-top: 0.8rem; border-top: 1px solid #333; display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; font-size: 0.85rem;">`;
+                        
+                        // Compensation
                         if (proj.stipend && proj.stipend !== "null" && proj.stipend != "0") {
-                            html += `<p style="margin-bottom:0.5rem;"><strong style="color:#F7C948;">Stipend:</strong> ${proj.stipend}</p>`;
+                            html += `<div><strong style="color:#F7C948;">Stipend:</strong> ₹${proj.stipend}</div>`;
+                        } else {
+                            html += `<div><strong style="color:#F7C948;">Stipend:</strong> Unpaid / N/A</div>`;
                         }
-                        html += `</div>`;
+                        
+                        // Details
+                        if (proj.mealDetails && proj.mealDetails !== "null" && proj.mealDetails !== "No") {
+                            html += `<div><strong style="color:#F7C948;">Meals:</strong> ${stripHtml(proj.mealDetails)}</div>`;
+                        }
+                        if (proj.conveyanceDetails && proj.conveyanceDetails !== "null" && proj.conveyanceDetails !== "No") {
+                            html += `<div><strong style="color:#F7C948;">Conveyance:</strong> ${stripHtml(proj.conveyanceDetails)}</div>`;
+                        }
+                        if (proj.medicalDetails && proj.medicalDetails !== "null" && proj.medicalDetails !== "No") {
+                            html += `<div><strong style="color:#F7C948;">Medical:</strong> ${stripHtml(proj.medicalDetails)}</div>`;
+                        }
+                        
+                        // Facilities booleans
+                        let facilities = [];
+                        if (proj.outstationAllowed && proj.outstationAllowed !== "null" && proj.outstationAllowed !== "No") facilities.push("Outstation Allowed");
+                        if (proj.accommodatoinAllowed && proj.accommodatoinAllowed !== "null" && proj.accommodatoinAllowed !== "No") facilities.push("Accommodation Provided");
+                        
+                        if (facilities.length > 0) {
+                            html += `<div style="grid-column: 1 / -1;"><strong style="color:#F7C948;">Facilities:</strong> ${facilities.join(', ')}</div>`;
+                        }
+                        
+                        if (proj.otherDetails && proj.otherDetails !== "null" && proj.otherDetails !== "") {
+                            html += `<div style="grid-column: 1 / -1;"><strong style="color:#F7C948;">Other Details:</strong> ${stripHtml(proj.otherDetails)}</div>`;
+                        }
+
+                        html += `</div></div>`;
                     });
+                } else if (!stationCsvData['Description']) {
+                    html += `<p style="color:#aaa; font-style:italic;">No detailed project descriptions uploaded yet.</p>`;
                 }
 
-                // D. APPEND EXTRA CSV DETAILS
+                // D. APPEND EXTRA CSV DETAILS (If available)
                 const hasCsvExtra = stationCsvData['Title'] || stationCsvData['Project Domain'] || stationCsvData['Description'];
                 if (hasCsvExtra) {
-                    html += `<h3 style="color:#fff; margin-top: 2.5rem; margin-bottom:1rem; padding-bottom:0.5rem; border-bottom:1px solid #333;">Additional Overview (Sheets Data)</h3>`;
+                    html += `<h3 style="color:#fff; margin-top: 2.5rem; margin-bottom:1rem; padding-bottom:0.5rem; border-bottom:1px solid #333;">Additional Overview (CSV Data)</h3>`;
                     html += `<div style="background: rgba(247, 201, 72, 0.05); padding: 1.25rem; border-radius: 8px; border: 1px solid rgba(247, 201, 72, 0.2); margin-bottom: 1.25rem;">`;
                     
                     if (stationCsvData['Title']) {
-                        html += `<p style="margin-bottom:0.5rem;"><strong style="color:#F7C948;">Titles:</strong> ${stationCsvData['Title']}</p>`;
+                        html += `<p style="margin-bottom:0.5rem;"><strong style="color:#F7C948;">CSV Titles:</strong> ${stationCsvData['Title']}</p>`;
                     }
                     if (stationCsvData['Project Domain']) {
-                        html += `<p style="margin-bottom:0.5rem;"><strong style="color:#F7C948;">Domain:</strong> ${stationCsvData['Project Domain']}</p>`;
+                        html += `<p style="margin-bottom:0.5rem;"><strong style="color:#F7C948;">CSV Domain:</strong> ${stationCsvData['Project Domain']}</p>`;
                     }
                     if (stationCsvData['Description']) {
                         let desc = stationCsvData['Description']
