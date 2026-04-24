@@ -3,20 +3,21 @@
     "stationId": 8675,
     "stationName": "E MUG Engineering Services Pvt. Ltd.",
     "cityId": 24,
-    "city": "Hyderabad",
+    "city": "Plot 21,2nd Floor, Gardenia Mabuhay, Jayabheri Pine Valley, Telecom Nagar, Hyderabad, Telangana, 500032 Plot 21,2nd Floor, Gardenia Mabuhay, Jayabheri Pine Valley, Telecom Nagar, Hyderabad, Telangana, 500032",
     "accomodation": "null",
     "projectDomains": [
       247,
       21,
       43
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 163,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Telangana",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8675,

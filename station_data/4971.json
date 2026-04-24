@@ -3,19 +3,20 @@
     "stationId": 4971,
     "stationName": "Indian Oil Corporation Ltd",
     "cityId": 123206,
-    "city": "Vadodara",
+    "city": "\t Vadodara \t Vadodara",
     "accomodation": "null",
     "projectDomains": [
       14,
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 193,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Electronics",
     "state": "Gujarat",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4971,

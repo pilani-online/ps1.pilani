@@ -3,20 +3,21 @@
     "stationId": 7029,
     "stationName": "Centre for High Impact Neuroscience and Translational Applications, TCG CREST",
     "cityId": 28,
-    "city": "Kolkata",
+    "city": "TCG Centres for Research and Education in Science and Technology 2nd Floor, Tower 1, Bengal Eco Intelligent Park, Block EM, Sector V, Salt Lake,  Kolkata 700091, India",
     "accomodation": "null",
     "projectDomains": [
       105,
       109,
       43
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 134,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Electronics",
     "state": "West Bengal",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 7029,
@@ -143,7 +144,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sowmya@bits.com"
       },
@@ -164,7 +165,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sowmya@bits.com"
       },

@@ -3,20 +3,21 @@
     "stationId": 4533,
     "stationName": "DYSL - CT DRDO",
     "cityId": 23,
-    "city": "Chennai",
+    "city": "5th Floor, E -Block, IITM Research Park, Taramani, Chennai \u2013 600 113. 5th Floor, E -Block, IITM Research Park, Taramani, Chennai \u2013 600 113.",
     "accomodation": "null",
     "projectDomains": [
       86,
       29,
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 12,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "CSIS/IT",
     "state": "Tamil Nadu",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4533,
@@ -122,7 +123,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-ankita@bits.com"
       },

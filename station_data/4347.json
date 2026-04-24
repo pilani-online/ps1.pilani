@@ -3,20 +3,21 @@
     "stationId": 4347,
     "stationName": "Danlaw Technologies India Ltd.",
     "cityId": 6,
-    "city": "Goa",
+    "city": "Plot No. L-'15, Verna lndustrial Estate, Verna, Salcette, Goa - 403722 Plot No. L-'15, Verna lndustrial Estate, Verna, Salcette, Goa - 403722",
     "accomodation": "null",
     "projectDomains": [
       29,
       28,
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 154,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Electronics",
     "state": "Goa",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4347,
@@ -143,7 +144,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-ankita@bits.com"
       },

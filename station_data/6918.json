@@ -3,20 +3,21 @@
     "stationId": 6918,
     "stationName": "Kuppismart solutions Pvt Ltd - Tech",
     "cityId": 24,
-    "city": "Hyderabad",
+    "city": "CSR Pride, 2th floor 202 flat number, Lig chitrapuri colony HYDERABAD, TELANGANA 500089., India",
     "accomodation": "null",
     "projectDomains": [
       292,
       136,
       151
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 209,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Telangana",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 6918,

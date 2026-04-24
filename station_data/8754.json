@@ -3,18 +3,19 @@
     "stationId": 8754,
     "stationName": "KYRO Technologies Inc.",
     "cityId": 23,
-    "city": "Chennai",
+    "city": "KYRO Technologies Inc., SM Towers, 3rd Floor, Seevaram 1st Street,  Perungudi, Chennai - 600096",
     "accomodation": "null",
     "projectDomains": [
       2
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 211,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Tamil Nadu",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8754,

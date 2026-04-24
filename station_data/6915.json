@@ -3,20 +3,21 @@
     "stationId": 6915,
     "stationName": "CRRI- Knowledge Resource Centre",
     "cityId": 121802,
-    "city": "New Delhi",
+    "city": " Delhi-Mathura Road - Delhi 110025  Delhi-Mathura Road - Delhi 110025",
     "accomodation": "null",
     "projectDomains": [
       3,
       28,
       5
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 147,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Infrastructure",
     "state": "Delhi",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 6915,

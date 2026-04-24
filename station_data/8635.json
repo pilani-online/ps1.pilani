@@ -3,18 +3,19 @@
     "stationId": 8635,
     "stationName": "Action For India",
     "cityId": 121802,
-    "city": "New Delhi",
+    "city": "15-A, 4th floor Pratap Nagar, Mayur Vihar near India bank, above KBM electronics, New Delhi 110 091, INDIA 15-A, 4th floor Pratap Nagar, Mayur Vihar near India bank, above KBM electronics, New Delhi 110 091, INDIA",
     "accomodation": "null",
     "projectDomains": [
       229
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 92,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Finance and Mgmt",
     "state": "Delhi",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8635,

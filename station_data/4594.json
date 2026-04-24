@@ -3,7 +3,7 @@
     "stationId": 4594,
     "stationName": "National Load Despatch Centre, Grid Controller of India Limited",
     "cityId": 121802,
-    "city": "New Delhi",
+    "city": "B-9(1st and 2nd Floor), Qutab Industrial Area Katwaria Sarai, New Delhi - 110016",
     "accomodation": "null",
     "projectDomains": [
       11,
@@ -12,13 +12,14 @@
       86,
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 235,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Delhi",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4594,
@@ -145,7 +146,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-ankita@bits.com"
       },

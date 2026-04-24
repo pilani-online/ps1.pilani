@@ -3,20 +3,21 @@
     "stationId": 4527,
     "stationName": "Centre for Military Airworthiness & Certification (CEMILAC), DRDO",
     "cityId": 122567,
-    "city": "Bengaluru",
+    "city": "Bengaluru Bengaluru",
     "accomodation": "null",
     "projectDomains": [
       21,
       28,
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 20,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Mechanical",
     "state": "Karnataka",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4527,
@@ -46,7 +47,7 @@
     "countryId": 1,
     "statusId": 4,
     "stationTypeId": 3,
-    "stationGroupId": null,
+    "stationGroupId": 2,
     "reason": "",
     "relation": "",
     "assignedFacultyId": 1672,

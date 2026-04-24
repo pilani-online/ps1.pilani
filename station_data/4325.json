@@ -3,7 +3,7 @@
     "stationId": 4325,
     "stationName": "Myoworks Private Limited",
     "cityId": 14,
-    "city": "Mumbai",
+    "city": "6024, RAHUL BAJAJ TECHNOLOGY INNOVATION CENTER, YP ROAD, OPP VMCC, IIT AREA, IIT BOMBAY, POWAI, MUMBAI-400076 6024, RAHUL BAJAJ TECHNOLOGY INNOVATION CENTER, YP ROAD, OPP VMCC, IIT AREA, IIT BOMBAY, POWAI, MUMBAI-400076",
     "accomodation": "null",
     "projectDomains": [
       14,
@@ -15,13 +15,14 @@
       532,
       33
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 69,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Health Care",
     "state": "Maharashtra",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4325,
@@ -169,7 +170,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-ankita@bits.com"
       },

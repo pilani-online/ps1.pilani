@@ -3,18 +3,20 @@
     "stationId": 8810,
     "stationName": "RCMA (Lucknow)",
     "cityId": 27,
-    "city": "Lucknow",
+    "city": "RCMA LUCKNOW, C/o HAL Lucknow Division,  Lucknow-226016, UTTAR PRADESH",
     "accomodation": "null",
     "projectDomains": [
-      81
+      134,
+      21
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 26,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Electronics",
     "state": "Uttar Pradesh",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8810,
@@ -95,7 +97,7 @@
         "totalFemalRequirement": 0,
         "totalMaleRequirement": 0,
         "totalRequirement": 2,
-        "noOfProject": 1,
+        "noOfProject": 2,
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",

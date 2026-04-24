@@ -3,19 +3,20 @@
     "stationId": 6985,
     "stationName": "NERLDC- North Eastern Regional Load Despatch Center, Grid-India",
     "cityId": 122818,
-    "city": "Guwahati",
+    "city": "Shillong, Guwahati Shillong, Guwahati",
     "accomodation": "null",
     "projectDomains": [
       81,
       28
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 238,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Electronics",
     "state": "Assam",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 6985,

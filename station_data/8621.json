@@ -3,18 +3,19 @@
     "stationId": 8621,
     "stationName": "ONGC, Dehradun",
     "cityId": 26,
-    "city": "Dehradun",
+    "city": "Tel Bhawan, Dehradun - 248003, Uttarakhand Tel Bhawan, Dehradun - 248003, Uttarakhand",
     "accomodation": "null",
     "projectDomains": [
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 78,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Infrastructure",
     "state": "Uttarakhand",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8621,

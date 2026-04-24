@@ -3,7 +3,7 @@
     "stationId": 7012,
     "stationName": "Innokreat Technologies Pvt Ltd - Tech",
     "cityId": 120306,
-    "city": "Gurgaon",
+    "city": "Nasscom Innovation Hub, Plot 1, Udyog Vihar Phase 1, Sector 20, Gurugram Gurugram",
     "accomodation": "null",
     "projectDomains": [
       124,
@@ -14,13 +14,14 @@
       594,
       73
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 199,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Haryana",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 7012,

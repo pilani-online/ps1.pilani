@@ -3,19 +3,20 @@
     "stationId": 8573,
     "stationName": "BHUMI",
     "cityId": 23,
-    "city": "Chennai",
+    "city": "3/2, Karpaga Vinayagar Koil St, Ramapuram, Mela Ilandaikulam,  Alandur, Chennai, Tamil Nadu ",
     "accomodation": "null",
     "projectDomains": [
       561,
       191
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 120,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Finance and Mgmt",
     "state": "Tamil Nadu",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8573,
@@ -100,7 +101,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sunil@bits.com"
       },
@@ -121,7 +122,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sunil@bits.com"
       },

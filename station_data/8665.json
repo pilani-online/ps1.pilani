@@ -3,19 +3,20 @@
     "stationId": 8665,
     "stationName": "Uratom Solar (India) Pvt. Ltd",
     "cityId": 123091,
-    "city": "Gondal",
+    "city": "Survey No. 752 P1 | N. H. 27 | Near Chordi Village | Gondal | Gujarat | India | 360311 Survey No. 752 P1 | N. H. 27 | Near Chordi Village | Gondal | Gujarat | India | 360311",
     "accomodation": "null",
     "projectDomains": [
       508,
       45
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 411,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Mechanical",
     "state": "Gujarat",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8665,

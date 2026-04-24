@@ -3,18 +3,19 @@
     "stationId": 8594,
     "stationName": "ATRIBS GLOBAL - SWOT DIGINXT P LTD",
     "cityId": 23,
-    "city": "Chennai",
+    "city": "No 10 Platinum Towers 1 st Floor Old Trunk Road Pallavaram Cehnnai 600043 No 10 Platinum Towers 1 st Floor Old Trunk Road Pallavaram Cehnnai 600043",
     "accomodation": "null",
     "projectDomains": [
       86
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 118,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Infrastructure",
     "state": "Tamil Nadu",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8594,
@@ -99,7 +100,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-kalyan@bits.com"
       },

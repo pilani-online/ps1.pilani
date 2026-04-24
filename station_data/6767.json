@@ -3,19 +3,20 @@
     "stationId": 6767,
     "stationName": "Edutech Learning Solutions Pvt. Ltd.",
     "cityId": 123206,
-    "city": "Vadodara",
+    "city": "\t Vadodara \t Vadodara\t",
     "accomodation": "null",
     "projectDomains": [
       43,
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 165,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Gujarat",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 6767,

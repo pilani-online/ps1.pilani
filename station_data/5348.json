@@ -3,7 +3,7 @@
     "stationId": 5348,
     "stationName": "Regional Remote Sensing Center-North, NRSC, ISRO - Electronics",
     "cityId": 121802,
-    "city": "New Delhi",
+    "city": "Regional Remote Sensing Center-North,  NRSC, ISRO, Sadiq Nagar, New Delhi-110049",
     "accomodation": "null",
     "projectDomains": [
       136,
@@ -16,13 +16,14 @@
       199,
       520
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 22,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Others",
     "state": "Delhi",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 5348,
@@ -149,7 +150,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sunil@bits.com"
       },
@@ -170,7 +171,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sunil@bits.com"
       },

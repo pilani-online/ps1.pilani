@@ -3,7 +3,7 @@
     "stationId": 6961,
     "stationName": "Vitalize Healthcare Pvt. Ltd - Tech",
     "cityId": 13,
-    "city": "Bhopal",
+    "city": "Aakriti Gardens, Nehru Nagar, Bhopal 462003, M. P. Aakriti Gardens, Nehru Nagar, Bhopal 462003, M. P.",
     "accomodation": "null",
     "projectDomains": [
       230,
@@ -12,13 +12,14 @@
       211,
       2
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 416,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Health Care",
     "state": "Madhya Pradesh",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 6961,
@@ -140,7 +141,7 @@
         "businessDomain": "Health Care",
         "totalFemalRequirement": 0,
         "totalMaleRequirement": 0,
-        "totalRequirement": 3,
+        "totalRequirement": 5,
         "noOfProject": 1,
         "batchId": 17,
         "psTypeId": 1,

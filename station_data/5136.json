@@ -3,20 +3,21 @@
     "stationId": 5136,
     "stationName": "National Council of Applied Economic Research (NCAER)",
     "cityId": 121796,
-    "city": "Delhi",
+    "city": "National Council of Applied Economic Research NCAER India Centre,  11 Indraprastha Estate New Delhi 110002",
     "accomodation": "null",
     "projectDomains": [
       193,
       4,
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 232,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Others",
     "state": "Delhi",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 5136,

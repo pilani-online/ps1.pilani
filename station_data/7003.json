@@ -3,7 +3,7 @@
     "stationId": 7003,
     "stationName": "Codegres (OPC) Private Limited",
     "cityId": 122567,
-    "city": "Bengaluru",
+    "city": "1st floor, #60, 4th Cross Rd, Ramaiah Nagar,  Kumaraswamy Layout, Bengaluru, Karnataka ",
     "accomodation": "null",
     "projectDomains": [
       5,
@@ -11,13 +11,14 @@
       151,
       286
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 138,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Karnataka",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 7003,
@@ -123,7 +124,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sowmya@bits.com"
       },

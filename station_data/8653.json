@@ -3,18 +3,19 @@
     "stationId": 8653,
     "stationName": "Amritatva Farm - Market Expansion & Business Development-Mumbai",
     "cityId": 14,
-    "city": "Mumbai",
+    "city": "Mumbai Maharashtra",
     "accomodation": "null",
     "projectDomains": [
       155
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 106,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Finance and Mgmt",
     "state": "Maharashtra",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8653,

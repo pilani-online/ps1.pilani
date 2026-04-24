@@ -3,7 +3,7 @@
     "stationId": 4561,
     "stationName": "Connect Signal",
     "cityId": 21,
-    "city": "Jaipur",
+    "city": "6/23, SFS, Mansarovarm Jaipur 302020 Rajasthan",
     "accomodation": "null",
     "projectDomains": [
       22,
@@ -12,13 +12,14 @@
       178,
       244
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 142,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Rajasthan",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4561,
@@ -124,7 +125,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sowmya@bits.com"
       },
@@ -145,7 +146,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sowmya@bits.com"
       },
@@ -166,7 +167,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sowmya@bits.com"
       },

@@ -3,18 +3,19 @@
     "stationId": 8626,
     "stationName": "Pratham Education Foundation-Bengaluru",
     "cityId": 122567,
-    "city": "Bengaluru",
+    "city": "Flat G101, Nanda Deep Apartments, 87, Kumarakrupa Rd, Kumara Park East,  Seshadripuram, Bengaluru, Karnataka 560001.",
     "accomodation": "null",
     "projectDomains": [
       23
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 268,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Finance and Mgmt",
     "state": "Karnataka",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8626,

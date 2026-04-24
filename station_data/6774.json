@@ -3,7 +3,7 @@
     "stationId": 6774,
     "stationName": "Heetherark Labs Private Limited - Electronics",
     "cityId": 121073,
-    "city": "Secunderabad",
+    "city": "G5, Padma Plaza, Ground floor, New Bhoiguda, Secunderabad- 500003 Telangana. G5, Padma Plaza, Ground floor, New Bhoiguda, Secunderabad- 500003 Telangana.",
     "accomodation": "null",
     "projectDomains": [
       1,
@@ -14,13 +14,14 @@
       136,
       188
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 184,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Telangana",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 6774,
@@ -168,7 +169,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-abhishek@bits.com"
       },
@@ -189,7 +190,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-abhishek@bits.com"
       },
@@ -210,7 +211,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-abhishek@bits.com"
       },

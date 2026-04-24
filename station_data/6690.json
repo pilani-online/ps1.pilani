@@ -3,20 +3,21 @@
     "stationId": 6690,
     "stationName": "National Remote Sensing Centre",
     "cityId": 24,
-    "city": "Hyderabad",
+    "city": "NRSC Balanagar, Hyderabad 500037 NRSC Balanagar, Hyderabad 500037",
     "accomodation": "null",
     "projectDomains": [
       105,
       227,
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 67,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "CSIS/IT",
     "state": "Telangana",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 6690,
@@ -122,7 +123,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-kalyan@bits.com"
       },

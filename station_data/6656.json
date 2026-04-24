@@ -3,7 +3,7 @@
     "stationId": 6656,
     "stationName": "KVGAI Tech Pvt. Ltd",
     "cityId": 27,
-    "city": "Lucknow",
+    "city": "Registered Address: B-87, Indira Nagar, Lucknow, 226028 (PS will be Online)Registered Address: B-87, Indira Nagar, Lucknow, 226028 (PS will be Online) Registered Address: B-87, Indira Nagar, Lucknow, 226028 (PS will be Online)",
     "accomodation": "null",
     "projectDomains": [
       257,
@@ -16,13 +16,14 @@
       243,
       5
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 210,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Uttar Pradesh",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 6656,
@@ -55,7 +56,7 @@
     "stationGroupId": 2,
     "reason": "",
     "relation": "",
-    "assignedFacultyId": 745,
+    "assignedFacultyId": 1673,
     "assignedFacultyUserName": null,
     "delete": null,
     "createdBy": "planning@bits.com",
@@ -128,7 +129,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-ankita@bits.com"
       },

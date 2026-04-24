@@ -3,7 +3,7 @@
     "stationId": 7043,
     "stationName": "AudioPod, Inc - Tech",
     "cityId": 122567,
-    "city": "Bengaluru",
+    "city": "H-354, Varalakshami, 7th cross, Yemalur, Bengaluru - 560037 Bengaluru - 560037",
     "accomodation": "null",
     "projectDomains": [
       127,
@@ -14,13 +14,14 @@
       65,
       9
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 70,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "CSIS/IT",
     "state": "Karnataka",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 7043,

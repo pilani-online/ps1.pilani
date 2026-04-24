@@ -3,18 +3,19 @@
     "stationId": 8628,
     "stationName": "Pratham Education Foundation-Koppal",
     "cityId": 122664,
-    "city": "Koppal",
+    "city": "Sri Rama nilaya, H-NO= 8-2-143/1, Simpi Linganna Road ,  KOPPAL. 583231",
     "accomodation": "null",
     "projectDomains": [
       22
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 269,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Finance and Mgmt",
     "state": "Karnataka",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8628,

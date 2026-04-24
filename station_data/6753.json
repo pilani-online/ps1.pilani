@@ -3,7 +3,7 @@
     "stationId": 6753,
     "stationName": "Advanced Systems Laboratory, DRDO",
     "cityId": 24,
-    "city": "Hyderabad",
+    "city": "Hyderabad Hyderabad",
     "accomodation": "null",
     "projectDomains": [
       21,
@@ -11,13 +11,14 @@
       134,
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 19,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Mechanical",
     "state": "Telangana",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 6753,

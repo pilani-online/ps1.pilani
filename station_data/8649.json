@@ -3,18 +3,19 @@
     "stationId": 8649,
     "stationName": "Neovant Therapeutics Pvt Ltd",
     "cityId": 123032,
-    "city": "Ahmedabad",
+    "city": "Neovant Therapeutics Pvt. Ltd., B1-12, Galaxy Signature, Science City Road Sofa,  Ahmedabad, Gujarat-380060, India.",
     "accomodation": "null",
     "projectDomains": [
       32
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 237,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Health Care",
     "state": "Gujarat",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8649,

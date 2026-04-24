@@ -3,19 +3,20 @@
     "stationId": 7027,
     "stationName": "Semi-Conductor Laboratory (SCL), Mohali, Punjab",
     "cityId": 121460,
-    "city": "Mohali",
+    "city": "SEMIConductor Laboratory(SCL),Sector 72,SAS Nagar -160071 ,Punjab, SEMIConductor Laboratory(SCL),Sector 72,SAS Nagar -160071 ,Punjab,",
     "accomodation": "null",
     "projectDomains": [
       81,
       28
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 56,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Electronics",
     "state": "Punjab",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 7027,
@@ -121,7 +122,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-abhishek@bits.com"
       },

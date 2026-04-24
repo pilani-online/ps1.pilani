@@ -3,7 +3,7 @@
     "stationId": 7040,
     "stationName": "Niftrix Technologies Private Limited",
     "cityId": 122567,
-    "city": "Bengaluru",
+    "city": "3 rd Floor, Tejas Arcade, 528/A, 529/A - 9/1 \u2013 1st Main Road, A Block, Subramanya Nagar, Ward No.9,  Bangalore 560010 Karnataka",
     "accomodation": "null",
     "projectDomains": [
       127,
@@ -14,13 +14,14 @@
       184,
       174
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 242,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Karnataka",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 7040,
@@ -168,7 +169,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sowmya@bits.com"
       },

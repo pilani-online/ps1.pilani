@@ -3,18 +3,19 @@
     "stationId": 8663,
     "stationName": "Pascal AI",
     "cityId": 122567,
-    "city": "Bengaluru",
+    "city": "Second Floor, A Wing, of Indiqube Edge, building, situated at Khatha No. 571/630/6/4, (Sy No.6/4), Ambalipura Village, Outer Ring Road, Varthur Hobli, Bangalore 560103 Second Floor, A Wing, of Indiqube Edge, building, situated at Khatha No. 571/630/6/4, (Sy No.6/4), Ambalipura Village, Outer Ring Road, Varthur Hobli, Bangalore 560103",
     "accomodation": "null",
     "projectDomains": [
       424
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 46,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "CSIS/IT",
     "state": "Karnataka",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8663,

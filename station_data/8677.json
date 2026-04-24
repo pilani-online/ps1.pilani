@@ -3,18 +3,19 @@
     "stationId": 8677,
     "stationName": "I-Hub for Robotics and Autonomous Systems Innovation Foundation(Artpart IISc)",
     "cityId": 122567,
-    "city": "Bengaluru",
+    "city": "Society for Innovation and Development, Innovation Centre Building, Indian Institute of Science (IISc),  Bengaluru, Karnataka, 560012, India",
     "accomodation": "null",
     "projectDomains": [
       597
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 18,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Electronics",
     "state": "Karnataka",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8677,

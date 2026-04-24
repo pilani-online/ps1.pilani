@@ -3,19 +3,20 @@
     "stationId": 8519,
     "stationName": "Vankal Agri Solutions Pvt. Ltd.",
     "cityId": 21,
-    "city": "Jaipur",
+    "city": "3/55 Paras Ram Nagar, Dher ke Balaji Siker Road, Jaipur",
     "accomodation": "null",
     "projectDomains": [
       521,
       23
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 413,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Finance and Mgmt",
     "state": "Rajasthan",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8519,
@@ -48,9 +49,9 @@
     "stationGroupId": 3,
     "reason": "",
     "relation": "",
-    "assignedFacultyId": 745,
+    "assignedFacultyId": 1673,
     "assignedFacultyUserName": null,
-    "delete": 0,
+    "delete": null,
     "createdBy": "planning-kalyan@bits.com",
     "stationContactName": "Lalit Nandwana",
     "stationContactDesignation": "HR",
@@ -100,7 +101,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-kalyan@bits.com"
       },

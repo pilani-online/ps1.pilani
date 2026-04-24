@@ -3,19 +3,20 @@
     "stationId": 8639,
     "stationName": "Aivid Techvision",
     "cityId": 123032,
-    "city": "Ahmedabad",
+    "city": "303 WestFace Zydus Hospital Road, Hebatpur Rd, near Baghban Crossroads, Thaltej, Ahmedabad, Gujarat 380059 303 WestFace Zydus Hospital Road, Hebatpur Rd, near Baghban Crossroads, Thaltej, Ahmedabad, Gujarat 380059",
     "accomodation": "null",
     "projectDomains": [
       127,
       56
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 100,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Finance and Mgmt",
     "state": "Gujarat",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8639,

@@ -3,19 +3,20 @@
     "stationId": 8545,
     "stationName": "OrbitArch",
     "cityId": 121796,
-    "city": "Delhi",
+    "city": "Delhi Delhi",
     "accomodation": "null",
     "projectDomains": [
       103,
       172
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 254,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Delhi",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8545,
@@ -100,7 +101,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-omprakash@bits.com"
       },
@@ -142,7 +143,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-omprakash@bits.com"
       },

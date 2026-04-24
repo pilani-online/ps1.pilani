@@ -3,18 +3,19 @@
     "stationId": 8651,
     "stationName": "Amritatva Farm - Market Expansion & Business Development-Delhi",
     "cityId": 121802,
-    "city": "New Delhi",
+    "city": "Delhi India",
     "accomodation": "null",
     "projectDomains": [
       155
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 104,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Finance and Mgmt",
     "state": "Delhi",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8651,

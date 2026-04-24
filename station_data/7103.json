@@ -3,19 +3,20 @@
     "stationId": 7103,
     "stationName": "ETDC - Electronic Test & Development Centre- Pune",
     "cityId": 29,
-    "city": "Pune",
+    "city": "GRMW+V87, Agriculture College Campus, Shivaji Nagar, Shivaji Nagar, Pune, Maharashtra 411005 Shivaji Nagar, Shivaji Nagar, Pune, Maharashtra 411005",
     "accomodation": "null",
     "projectDomains": [
       28,
       134
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 48,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Electronics",
     "state": "Maharashtra",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 7103,
@@ -144,7 +145,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sunil@bits.com"
       },

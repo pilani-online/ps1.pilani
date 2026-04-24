@@ -3,20 +3,21 @@
     "stationId": 8759,
     "stationName": "Swecha - Agriculture Technology",
     "cityId": 24,
-    "city": "Hyderabad",
+    "city": "Hyderabad -",
     "accomodation": "null",
     "projectDomains": [
       86,
       127,
       109
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 386,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Telangana",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8759,

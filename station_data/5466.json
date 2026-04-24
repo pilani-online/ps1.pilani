@@ -3,7 +3,7 @@
     "stationId": 5466,
     "stationName": "Grasim Industries - Online",
     "cityId": 124041,
-    "city": "Nagda",
+    "city": "Nagda Nagda",
     "accomodation": "null",
     "projectDomains": [
       14,
@@ -12,13 +12,14 @@
       345,
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 180,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Chemical",
     "state": "Madhya Pradesh",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 5466,
@@ -48,7 +49,7 @@
     "countryId": 1,
     "statusId": 4,
     "stationTypeId": 2,
-    "stationGroupId": null,
+    "stationGroupId": 2,
     "reason": "",
     "relation": "",
     "assignedFacultyId": 60,

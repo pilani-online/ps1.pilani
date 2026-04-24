@@ -3,7 +3,7 @@
     "stationId": 5295,
     "stationName": "ERLDC- Eastern Regional Load Dispatch Center, Grid India",
     "cityId": 28,
-    "city": "Kolkata",
+    "city": " Eastern Regional Load Dispatch Center, Grid Control India, 14, Golf Club Rd, Golf Gardens, Tollygunge, Kolkata,  Eastern Regional Load Dispatch Center, Grid Control India, 14, Golf Club Rd, Golf Gardens, Tollygunge, Kolkata,",
     "accomodation": "null",
     "projectDomains": [
       11,
@@ -12,13 +12,14 @@
       28,
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 169,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Electronics",
     "state": "West Bengal",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 5295,

@@ -3,7 +3,7 @@
     "stationId": 6868,
     "stationName": "TCG Centres for Research and Education in Science and Technology (TCG CREST)",
     "cityId": 28,
-    "city": "Kolkata",
+    "city": "Kolkata Centre for Quantum Engineering, Research and Education TCG Centres for Research and Education in Science and Technology  Bengal Eco Intelligent Park, EM Block, Plot 3 Sector V, Salt Lake Bidhannagar, Kolkata 700091",
     "accomodation": "null",
     "projectDomains": [
       28,
@@ -13,13 +13,14 @@
       532,
       105
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 397,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "West Bengal",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 6868,
@@ -188,7 +189,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-omprakash@bits.com"
       },

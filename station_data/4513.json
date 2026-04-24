@@ -3,7 +3,7 @@
     "stationId": 4513,
     "stationName": "Lifespark Technologies Private Limited",
     "cityId": 14,
-    "city": "Mumbai",
+    "city": "6019, Rahul Bajaj Technology Innovation Centre, YP Road, IIT Bombay,  Powai, Mumbai, India 400076",
     "accomodation": "null",
     "projectDomains": [
       32,
@@ -15,13 +15,14 @@
       71,
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 216,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Maharashtra",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4513,
@@ -148,7 +149,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-omprakash@bits.com"
       },

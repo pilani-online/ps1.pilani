@@ -3,19 +3,20 @@
     "stationId": 8632,
     "stationName": "FlairX Networks",
     "cityId": 11,
-    "city": "Bangalore",
+    "city": "FlairX Networks MSR Novel Tech Park Marathalli Bangalore - 560037 FlairX Networks MSR Novel Tech Park Marathalli Bangalore - 560037",
     "accomodation": "null",
     "projectDomains": [
       2,
       578
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 175,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Karnataka",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8632,

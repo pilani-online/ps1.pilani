@@ -3,19 +3,20 @@
     "stationId": 8747,
     "stationName": "HPCL \u2013 Visakh Refinery",
     "cityId": 121715,
-    "city": "Visakhapatnam",
+    "city": "HPCL \u2013 Visakh Refinery, Malkapuram, Visakhapatnam,  Andhra Pradesh - 530011",
     "accomodation": "null",
     "projectDomains": [
       14,
       21
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 187,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Chemical",
     "state": "Andhra Pradesh",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8747,
@@ -95,7 +96,7 @@
         "businessDomain": "Chemical",
         "totalFemalRequirement": 0,
         "totalMaleRequirement": 0,
-        "totalRequirement": 5,
+        "totalRequirement": 6,
         "noOfProject": 1,
         "batchId": 17,
         "psTypeId": 1,

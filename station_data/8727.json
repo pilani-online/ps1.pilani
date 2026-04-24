@@ -3,18 +3,19 @@
     "stationId": 8727,
     "stationName": "PS-I Entrepreneurship track - Prakirbha AI Diagnostics - Tech",
     "cityId": 24,
-    "city": "Hyderabad",
+    "city": "Hyderabad -",
     "accomodation": "null",
     "projectDomains": [
       511
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 331,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Telangana",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8727,

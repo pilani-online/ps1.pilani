@@ -3,19 +3,20 @@
     "stationId": 8668,
     "stationName": "Spatially Collaborative Engineering Labs  (SPACE Labs)",
     "cityId": 122154,
-    "city": "Noida",
+    "city": "Office No. 820, Tower A, Logix Technova, Sector 132,  Noida, Uttar Pradesh",
     "accomodation": "null",
     "projectDomains": [
       28,
       2
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 89,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Electronics",
     "state": "Uttar Pradesh",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8668,

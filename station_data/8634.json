@@ -3,7 +3,7 @@
     "stationId": 8634,
     "stationName": "SMARTSA TECH PRIVATE LIMITED-Online",
     "cityId": 29,
-    "city": "Pune",
+    "city": "Pune Maharastra",
     "accomodation": "null",
     "projectDomains": [
       506,
@@ -11,13 +11,14 @@
       151,
       23
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 376,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Finance and Mgmt",
     "state": "Maharashtra",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8634,

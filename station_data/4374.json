@@ -3,7 +3,7 @@
     "stationId": 4374,
     "stationName": "Mormugao Port Trust",
     "cityId": 120963,
-    "city": "Mormugao",
+    "city": "General Administration Department  A.O.Building Headline Sada",
     "accomodation": "null",
     "projectDomains": [
       11,
@@ -13,13 +13,14 @@
       290,
       119
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 79,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Infrastructure",
     "state": "Goa",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4374,
@@ -188,7 +189,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sunil@bits.com"
       },
@@ -209,7 +210,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sunil@bits.com"
       },
@@ -230,7 +231,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sunil@bits.com"
       },

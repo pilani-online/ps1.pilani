@@ -3,18 +3,19 @@
     "stationId": 8652,
     "stationName": "Amritatva Farm - Market Expansion & Business Development-Hyderabad",
     "cityId": 24,
-    "city": "Hyderabad",
+    "city": "Hyderabad Telangana",
     "accomodation": "null",
     "projectDomains": [
       155
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 105,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Finance and Mgmt",
     "state": "Telangana",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8652,

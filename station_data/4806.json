@@ -3,7 +3,7 @@
     "stationId": 4806,
     "stationName": "L&T Heavy Engineering, IC",
     "cityId": 123190,
-    "city": "Surat",
+    "city": "L&T, Heavy Engineering, Larsen & Toubro Limited Surat - Hazira Road, Surat",
     "accomodation": "null",
     "projectDomains": [
       5,
@@ -13,13 +13,14 @@
       105,
       2
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 212,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Mechanical",
     "state": "Gujarat",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4806,

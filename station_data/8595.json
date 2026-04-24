@@ -3,19 +3,20 @@
     "stationId": 8595,
     "stationName": "Centre for Development of Advanced Computing (CDAC) - Hyderabad",
     "cityId": 24,
-    "city": "Hyderabad",
+    "city": "Plot No. 6 & 7, Hardware Park, Sy No. 1/1, Srisailam Highway, Keshavagiri Post, Via, Pahadi Shareef, Hyderabad, Telangana 501510 Plot No. 6 & 7, Hardware Park, Sy No. 1/1, Srisailam Highway, Keshavagiri Post, Via, Pahadi Shareef, Hyderabad, Telangana 501510",
     "accomodation": "null",
     "projectDomains": [
       255,
       65
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 10,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "CSIS/IT",
     "state": "Telangana",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8595,
@@ -95,12 +96,12 @@
         "businessDomain": "CSIS/IT",
         "totalFemalRequirement": 0,
         "totalMaleRequirement": 0,
-        "totalRequirement": 6,
+        "totalRequirement": 16,
         "noOfProject": 1,
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-ankita@bits.com"
       },

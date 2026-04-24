@@ -3,18 +3,19 @@
     "stationId": 8813,
     "stationName": "RCMA (Nasik)",
     "cityId": 120550,
-    "city": "Nashik",
+    "city": "RCMA Nasik, C/o HAL Nasik Division, Ojhar PO, Nasik-422207, MAHARASHTRA RCMA Nasik, C/o HAL Nasik Division, Ojhar PO, Nasik-422207, MAHARASHTRA",
     "accomodation": "null",
     "projectDomains": [
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 24,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Electronics",
     "state": "Maharashtra",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8813,

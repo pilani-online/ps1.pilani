@@ -3,7 +3,7 @@
     "stationId": 8633,
     "stationName": "Krishavaa Lifesciences Pvt.Ltd",
     "cityId": 24,
-    "city": "Hyderabad",
+    "city": "Cubical No 8-b, TBI, BITS Pilani, Hyderabad Campus, Uddemarri, K.V.Rangareddy,  Shameerpet, Telangana, India-500078",
     "accomodation": "null",
     "projectDomains": [
       275,
@@ -11,13 +11,14 @@
       2,
       30
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 207,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Infrastructure",
     "state": "Telangana",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8633,

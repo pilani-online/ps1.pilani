@@ -3,19 +3,20 @@
     "stationId": 7114,
     "stationName": "ETDC - Electronic Test & Development Centre- Jaipur",
     "cityId": 21,
-    "city": "Jaipur",
+    "city": "Malviya Nagar Industrial Area, Malviya Nagar, Jaipur, Rajasthan 302017 Malviya Nagar Industrial Area, Malviya Nagar, Jaipur, Rajasthan 302017",
     "accomodation": "null",
     "projectDomains": [
       5,
       134
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 49,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "CSIS/IT",
     "state": "Rajasthan",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 7114,
@@ -270,7 +271,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sunil@bits.com"
       },

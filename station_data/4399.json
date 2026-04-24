@@ -3,20 +3,21 @@
     "stationId": 4399,
     "stationName": "IDS Infotech Ltd",
     "cityId": 20,
-    "city": "Chandigarh",
+    "city": "I-8, Rajiv Gandhi Technology Park, Chandigarh Chandigarh.",
     "accomodation": "null",
     "projectDomains": [
       28,
       134,
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 191,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Electronics",
     "state": "Punjab",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4399,
@@ -143,7 +144,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning@bits.com"
       },

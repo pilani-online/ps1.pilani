@@ -3,7 +3,7 @@
     "stationId": 4398,
     "stationName": "Pockvue Solutions Pvt. Ltd - Tech",
     "cityId": 122567,
-    "city": "Bengaluru",
+    "city": "CRE Spacez, #1, 2  nd Floor, 14th Main Rd, Sector 5,  HSR Layout, Bengaluru, Karnataka 560102",
     "accomodation": "null",
     "projectDomains": [
       44,
@@ -12,13 +12,14 @@
       71,
       99
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 265,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Finance and Mgmt",
     "state": "Karnataka",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4398,

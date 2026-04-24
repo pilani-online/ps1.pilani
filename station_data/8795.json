@@ -3,20 +3,21 @@
     "stationId": 8795,
     "stationName": "Paradeep Phosphates Limited  PPL Township, Odisha",
     "cityId": 197329,
-    "city": "PPL Township, Odisha",
+    "city": "PPL Township, Odisha PPL Township, Odisha",
     "accomodation": "null",
     "projectDomains": [
       14,
       21,
       65
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 258,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Chemical",
     "state": "Odisha",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8795,

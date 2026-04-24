@@ -3,7 +3,7 @@
     "stationId": 5399,
     "stationName": "Indian Semiconductor Mission ( ISM )",
     "cityId": 121796,
-    "city": "Delhi",
+    "city": "Electronic Niketan 6 CGO Complex ,New Delhi , ",
     "accomodation": "null",
     "projectDomains": [
       291,
@@ -11,13 +11,14 @@
       14,
       21
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 81,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Electronics",
     "state": "Delhi",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 5399,
@@ -123,7 +124,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-abhishek@bits.com"
       },
@@ -144,7 +145,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-abhishek@bits.com"
       },
@@ -165,7 +166,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-abhishek@bits.com"
       },

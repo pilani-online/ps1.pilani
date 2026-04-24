@@ -3,7 +3,7 @@
     "stationId": 6746,
     "stationName": "Amyush Techno Solution Pvt Ltd",
     "cityId": 121284,
-    "city": "Kota",
+    "city": "Pixels Plaza, 2DHA-5 Vigyan Nagar",
     "accomodation": "null",
     "projectDomains": [
       155,
@@ -17,13 +17,14 @@
       11,
       5
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 108,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Finance and Mgmt",
     "state": "Rajasthan",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 6746,
@@ -152,7 +153,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sunil@bits.com"
       },

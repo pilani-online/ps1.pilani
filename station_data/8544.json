@@ -3,7 +3,7 @@
     "stationId": 8544,
     "stationName": "I-Net Secure Labs Pvt. Ltd",
     "cityId": 23,
-    "city": "Chennai",
+    "city": "914, Poonamallee High Rd, Amaravathi Nagar,  Arumbakkam, Chennai, Tamil Nadu 600106",
     "accomodation": "null",
     "projectDomains": [
       2,
@@ -11,13 +11,14 @@
       30,
       151
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 190,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Tamil Nadu",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8544,
@@ -50,9 +51,9 @@
     "stationGroupId": 1,
     "reason": "",
     "relation": "",
-    "assignedFacultyId": 741,
+    "assignedFacultyId": 1673,
     "assignedFacultyUserName": null,
-    "delete": 0,
+    "delete": null,
     "createdBy": "planning-abhishek@bits.com",
     "stationContactName": "Preethy Ashokan",
     "stationContactDesignation": "-",
@@ -102,7 +103,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-abhishek@bits.com"
       },

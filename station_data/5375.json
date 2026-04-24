@@ -3,7 +3,7 @@
     "stationId": 5375,
     "stationName": "SimpleWorks Solutions Pvt. Ltd.",
     "cityId": 120545,
-    "city": "Nagpur",
+    "city": "No. 10/4, STPI, IT Park, near VNIT College, Gayatri Nagar, Nagpur, Maharashtra 440022  No. 10/4, STPI, IT Park, near VNIT College, Gayatri Nagar, Nagpur, Maharashtra 440022",
     "accomodation": "null",
     "projectDomains": [
       190,
@@ -12,13 +12,14 @@
       127,
       29
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 374,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Others",
     "state": "Maharashtra",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 5375,
@@ -168,7 +169,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-omprakash@bits.com"
       },

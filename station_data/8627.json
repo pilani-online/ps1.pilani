@@ -3,18 +3,19 @@
     "stationId": 8627,
     "stationName": "Pratham Education Foundation-Mysuru",
     "cityId": 122702,
-    "city": "Mysore",
+    "city": "#2684/1,6th Main, 13th Cross Rd, Vani Vilas Mohalla,  Mysuru, Karnataka",
     "accomodation": "null",
     "projectDomains": [
       22
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 270,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Finance and Mgmt",
     "state": "Karnataka",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8627,
@@ -95,27 +96,6 @@
         "totalFemalRequirement": 0,
         "totalMaleRequirement": 0,
         "totalRequirement": 3,
-        "noOfProject": 1,
-        "batchId": 17,
-        "psTypeId": 1,
-        "psTypeName": "PS I",
-        "semesterId": null,
-        "status": null,
-        "createdBy": "planning-sowmya@bits.com"
-      },
-      "projects": []
-    },
-    {
-      "problem_bank": {
-        "stationId": 8627,
-        "stationName": "Pratham Education Foundation-Mysuru",
-        "parentStationName": "Pratham Education Foundation",
-        "stationCity": "Mysore",
-        "problemBankId": 8857,
-        "businessDomain": "Finance and Mgmt",
-        "totalFemalRequirement": 0,
-        "totalMaleRequirement": 0,
-        "totalRequirement": 0,
         "noOfProject": 1,
         "batchId": 17,
         "psTypeId": 1,

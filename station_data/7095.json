@@ -3,19 +3,20 @@
     "stationId": 7095,
     "stationName": "ETDC- Electronic Test & Development Centre- Mohali",
     "cityId": 121460,
-    "city": "Mohali",
+    "city": "Shop No. B-108 Phase 8 Industrial Area Sahibzada Ajit Singh Nagar Sahibazada, Punjab 140308 Shop No. B-108 Phase 8 Industrial Area Sahibzada Ajit Singh Nagar Sahibazada, Punjab 140308",
     "accomodation": "null",
     "projectDomains": [
       28,
       134
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 50,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Electronics",
     "state": "Punjab",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 7095,
@@ -121,7 +122,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sunil@bits.com"
       },
@@ -142,7 +143,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sunil@bits.com"
       },
@@ -163,7 +164,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sunil@bits.com"
       },
@@ -184,7 +185,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sunil@bits.com"
       },

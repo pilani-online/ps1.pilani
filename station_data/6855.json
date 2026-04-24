@@ -3,7 +3,7 @@
     "stationId": 6855,
     "stationName": "Collegedunia - Non Tech",
     "cityId": 120306,
-    "city": "Gurgaon",
+    "city": "College Dunia, Gurgoan College Dunia, Gurgoan",
     "accomodation": "null",
     "projectDomains": [
       25,
@@ -11,13 +11,14 @@
       181,
       360
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 139,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Finance and Mgmt",
     "state": "Haryana",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 6855,

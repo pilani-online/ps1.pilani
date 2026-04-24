@@ -3,19 +3,20 @@
     "stationId": 8693,
     "stationName": "PS-I Entrepreneurship track - ManageWorkspace",
     "cityId": 21,
-    "city": "Jaipur",
+    "city": "Jaipur -",
     "accomodation": "null",
     "projectDomains": [
       522,
       510
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 317,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Others",
     "state": "Rajasthan",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8693,

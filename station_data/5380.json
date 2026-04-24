@@ -3,7 +3,7 @@
     "stationId": 5380,
     "stationName": "The Akshaya Patra Foundation",
     "cityId": 21,
-    "city": "Jaipur",
+    "city": "C6-C11, Mahal Scheme, Hare Krishna Marg Jagatpura Jaipur. 302017",
     "accomodation": "null",
     "projectDomains": [
       217,
@@ -11,15 +11,17 @@
       219,
       220,
       32,
-      81
+      81,
+      2
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 402,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Health Care",
     "state": "Rajasthan",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 5380,
@@ -95,133 +97,7 @@
         "stationName": "The Akshaya Patra Foundation",
         "parentStationName": "The Akshaya Patra Foundation",
         "stationCity": "Jaipur",
-        "problemBankId": 697,
-        "businessDomain": "Health Care",
-        "totalFemalRequirement": 0,
-        "totalMaleRequirement": 0,
-        "totalRequirement": 9,
-        "noOfProject": 5,
-        "batchId": 15,
-        "psTypeId": 1,
-        "psTypeName": "PS I",
-        "semesterId": null,
-        "status": null,
-        "createdBy": "planning@bits.com"
-      },
-      "projects": []
-    },
-    {
-      "problem_bank": {
-        "stationId": 5380,
-        "stationName": "The Akshaya Patra Foundation",
-        "parentStationName": "The Akshaya Patra Foundation",
-        "stationCity": "Jaipur",
-        "problemBankId": 2807,
-        "businessDomain": "Health Care",
-        "totalFemalRequirement": 0,
-        "totalMaleRequirement": 0,
-        "totalRequirement": 2,
-        "noOfProject": 1,
-        "batchId": 16,
-        "psTypeId": 1,
-        "psTypeName": "PS I",
-        "semesterId": null,
-        "status": null,
-        "createdBy": "planning@bits.com"
-      },
-      "projects": []
-    },
-    {
-      "problem_bank": {
-        "stationId": 5380,
-        "stationName": "The Akshaya Patra Foundation",
-        "parentStationName": "The Akshaya Patra Foundation",
-        "stationCity": "Jaipur",
-        "problemBankId": 2810,
-        "businessDomain": "Health Care",
-        "totalFemalRequirement": 0,
-        "totalMaleRequirement": 0,
-        "totalRequirement": 2,
-        "noOfProject": 1,
-        "batchId": 16,
-        "psTypeId": 1,
-        "psTypeName": "PS I",
-        "semesterId": null,
-        "status": null,
-        "createdBy": "planning@bits.com"
-      },
-      "projects": []
-    },
-    {
-      "problem_bank": {
-        "stationId": 5380,
-        "stationName": "The Akshaya Patra Foundation",
-        "parentStationName": "The Akshaya Patra Foundation",
-        "stationCity": "Jaipur",
-        "problemBankId": 2811,
-        "businessDomain": "Health Care",
-        "totalFemalRequirement": 0,
-        "totalMaleRequirement": 0,
-        "totalRequirement": 2,
-        "noOfProject": 1,
-        "batchId": 16,
-        "psTypeId": 1,
-        "psTypeName": "PS I",
-        "semesterId": null,
-        "status": null,
-        "createdBy": "planning@bits.com"
-      },
-      "projects": []
-    },
-    {
-      "problem_bank": {
-        "stationId": 5380,
-        "stationName": "The Akshaya Patra Foundation",
-        "parentStationName": "The Akshaya Patra Foundation",
-        "stationCity": "Jaipur",
-        "problemBankId": 2812,
-        "businessDomain": "Health Care",
-        "totalFemalRequirement": 0,
-        "totalMaleRequirement": 0,
-        "totalRequirement": 2,
-        "noOfProject": 1,
-        "batchId": 16,
-        "psTypeId": 1,
-        "psTypeName": "PS I",
-        "semesterId": null,
-        "status": null,
-        "createdBy": "planning@bits.com"
-      },
-      "projects": []
-    },
-    {
-      "problem_bank": {
-        "stationId": 5380,
-        "stationName": "The Akshaya Patra Foundation",
-        "parentStationName": "The Akshaya Patra Foundation",
-        "stationCity": "Jaipur",
-        "problemBankId": 2813,
-        "businessDomain": "Health Care",
-        "totalFemalRequirement": 0,
-        "totalMaleRequirement": 0,
-        "totalRequirement": 2,
-        "noOfProject": 1,
-        "batchId": 16,
-        "psTypeId": 1,
-        "psTypeName": "PS I",
-        "semesterId": null,
-        "status": null,
-        "createdBy": "planning@bits.com"
-      },
-      "projects": []
-    },
-    {
-      "problem_bank": {
-        "stationId": 5380,
-        "stationName": "The Akshaya Patra Foundation",
-        "parentStationName": "The Akshaya Patra Foundation",
-        "stationCity": "Jaipur",
-        "problemBankId": 8536,
+        "problemBankId": 9446,
         "businessDomain": "Health Care",
         "totalFemalRequirement": 0,
         "totalMaleRequirement": 0,
@@ -230,7 +106,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sowmya@bits.com"
       },

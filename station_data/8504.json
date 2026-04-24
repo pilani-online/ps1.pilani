@@ -3,19 +3,20 @@
     "stationId": 8504,
     "stationName": "Lailen Consulting Pvt. Ltd",
     "cityId": 17,
-    "city": "Aizawl",
+    "city": "T-111, First Floor, Tuikhuahtlang, Aizawl,  Mizoram- 796001",
     "accomodation": "null",
     "projectDomains": [
       503,
       248
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 213,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Mizoram",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8504,
@@ -100,7 +101,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sowmya@bits.com"
       },
@@ -121,7 +122,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sowmya@bits.com"
       },

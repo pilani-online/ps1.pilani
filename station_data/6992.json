@@ -3,19 +3,20 @@
     "stationId": 6992,
     "stationName": "Evoneural Artificial Intelligence OPC Private Limited",
     "cityId": 21,
-    "city": "Jaipur",
+    "city": "Fourth Floor, Bhamashah Technohub, Sansthan Path Malviya Nagar Jaipur Rajasthan 302017",
     "accomodation": "null",
     "projectDomains": [
       29,
       44
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 173,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Rajasthan",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 6992,
@@ -121,7 +122,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-omprakash@bits.com"
       },

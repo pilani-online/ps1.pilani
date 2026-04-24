@@ -3,19 +3,20 @@
     "stationId": 8565,
     "stationName": "Patratu Vidyut Utpadan Nigam Ltd.",
     "cityId": 122530,
-    "city": "Ramgarh",
+    "city": "PVUNL, Patratu, Ramgarh, Jharkhand 829119 PVUNL, Patratu, Ramgarh, Jharkhand 829119",
     "accomodation": "null",
     "projectDomains": [
       555,
       428
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 259,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Jharkhand",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8565,
@@ -100,7 +101,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-omprakash@bits.com"
       },

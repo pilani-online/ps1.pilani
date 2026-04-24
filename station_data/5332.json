@@ -3,7 +3,7 @@
     "stationId": 5332,
     "stationName": "MD Enterprises Global",
     "cityId": 197214,
-    "city": "Michigan",
+    "city": "2723 S. STATE ST, Suite#150 Ann Arbor,  MI 48104 USA",
     "accomodation": "null",
     "projectDomains": [
       71,
@@ -21,13 +21,14 @@
       427,
       263
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 80,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "CSIS/IT",
     "state": "Michigan",
-    "country": "United States"
+    "country": "United States",
+    "address": null
   },
   "station_details": {
     "stationId": 5332,
@@ -38,7 +39,7 @@
     "websiteAddress": "MDenterprisesGlobal.com",
     "pstypeId": 1,
     "associationDateText": "2024",
-    "incorporationYear": null,
+    "incorporationYear": "2026",
     "newProblemBankExists": true,
     "problemBankExists": true,
     "otherPstypeExists": false,
@@ -57,7 +58,7 @@
     "countryId": 2,
     "statusId": 4,
     "stationTypeId": 2,
-    "stationGroupId": null,
+    "stationGroupId": 2,
     "reason": "",
     "relation": "",
     "assignedFacultyId": 239,
@@ -196,7 +197,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning@bits.com"
       },
@@ -217,7 +218,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning@bits.com"
       },
@@ -238,7 +239,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning@bits.com"
       },
@@ -259,7 +260,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning@bits.com"
       },
@@ -280,7 +281,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning@bits.com"
       },

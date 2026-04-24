@@ -3,7 +3,7 @@
     "stationId": 4543,
     "stationName": "Bhabha Atomic Research Centre (BARC)",
     "cityId": 121715,
-    "city": "Visakhapatnam",
+    "city": "BARC(V) main campus , near Nagavaram Junction, Atchutapuram, Anakapalli district, Andhra Pradesh, 531011. BARC(V) main campus , near Nagavaram Junction, Atchutapuram, Anakapalli district, Andhra Pradesh, 531011.",
     "accomodation": "null",
     "projectDomains": [
       5,
@@ -12,13 +12,14 @@
       28,
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 14,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 1,
     "stationDomain": "Mechanical",
     "state": "Andhra Pradesh",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4543,

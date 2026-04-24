@@ -3,7 +3,7 @@
     "stationId": 4596,
     "stationName": "NLDC",
     "cityId": 121802,
-    "city": "New Delhi",
+    "city": "NRLDC, 18 Saheed Jeet Singh Sansanwal Marg Katwaria Sarai New Delhi - 110016",
     "accomodation": "null",
     "projectDomains": [
       11,
@@ -12,13 +12,14 @@
       81,
       28
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 51,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "CSIS/IT",
     "state": "Delhi",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4596,

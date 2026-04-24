@@ -3,19 +3,20 @@
     "stationId": 7098,
     "stationName": "ETDC- Electronic Test & Development Centre- Bengaluru",
     "cityId": 122567,
-    "city": "Bengaluru",
+    "city": "2GP9+JJW, Vivekananda Nagar, Peenya, Bengaluru, Karnataka 560058 2GP9+JJW, Vivekananda Nagar, Peenya, Bengaluru, Karnataka 560058",
     "accomodation": "null",
     "projectDomains": [
       28,
       134
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 172,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Electronics",
     "state": "Karnataka",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 7098,
@@ -121,7 +122,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sunil@bits.com"
       },

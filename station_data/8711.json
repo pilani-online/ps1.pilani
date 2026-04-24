@@ -3,19 +3,20 @@
     "stationId": 8711,
     "stationName": "PS-I Entrepreneurship track - Lingopanda - Non Tech",
     "cityId": 122567,
-    "city": "Bengaluru",
+    "city": "Bengaluru Bengaluru",
     "accomodation": "null",
     "projectDomains": [
       522,
       600
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 315,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Others",
     "state": "Karnataka",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8711,

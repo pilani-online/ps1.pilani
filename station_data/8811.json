@@ -3,18 +3,20 @@
     "stationId": 8811,
     "stationName": "RCMA (Kanpur)",
     "cityId": 122037,
-    "city": "Kanpur",
+    "city": "RCMA Kanpur, C/o HAL TAD,Chakeri Aerodrome PO, Kanpur-208008, UTTAR PRADESH RCMA Kanpur, C/o HAL TAD,Chakeri Aerodrome PO, Kanpur-208008, UTTAR PRADESH",
     "accomodation": "null",
     "projectDomains": [
-      81
+      81,
+      21
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 25,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Electronics",
     "state": "Uttar Pradesh",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8811,
@@ -26,7 +28,7 @@
     "pstypeId": 1,
     "associationDateText": "2026",
     "incorporationYear": "2000",
-    "newProblemBankExists": false,
+    "newProblemBankExists": true,
     "problemBankExists": true,
     "otherPstypeExists": false,
     "domainId": 8,
@@ -102,6 +104,27 @@
         "semesterId": null,
         "status": null,
         "createdBy": "planning-kalyan@bits.com"
+      },
+      "projects": []
+    },
+    {
+      "problem_bank": {
+        "stationId": 8811,
+        "stationName": "RCMA (Kanpur)",
+        "parentStationName": "RCMA",
+        "stationCity": "Kanpur",
+        "problemBankId": 9448,
+        "businessDomain": "Electronics",
+        "totalFemalRequirement": 0,
+        "totalMaleRequirement": 0,
+        "totalRequirement": 2,
+        "noOfProject": 1,
+        "batchId": 17,
+        "psTypeId": 1,
+        "psTypeName": "PS I",
+        "semesterId": null,
+        "status": null,
+        "createdBy": "planning-omprakash@bits.com"
       },
       "projects": []
     }

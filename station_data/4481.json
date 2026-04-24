@@ -3,20 +3,21 @@
     "stationId": 4481,
     "stationName": "Honda Motor Cycle and Scooter India Pvt. Ltd - Tapukara",
     "cityId": 121206,
-    "city": "Alwar",
+    "city": "Tapukara Factory, Plot No. SPL-2(D), 2(E), 2(F), 2(G) Tapukara Industrial Area, Dist. Alwar (Rajasthan)",
     "accomodation": "null",
     "projectDomains": [
       134,
       21,
       28
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 61,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Mechanical",
     "state": "Rajasthan",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4481,
@@ -143,7 +144,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-abhishek@bits.com"
       },

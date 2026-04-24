@@ -3,18 +3,19 @@
     "stationId": 8756,
     "stationName": "Power Finance Corp. Ltd.",
     "cityId": 121802,
-    "city": "New Delhi",
+    "city": "POWER FINANCE CORP LTD. Urjanidhi 1, Barakhamba Ln, near Metro Bhawan, Fire Brigade Lane, Connaught Place, New Delhi, Delhi 11000",
     "accomodation": "null",
     "projectDomains": [
       4
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 266,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Electronics",
     "state": "Delhi",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8756,

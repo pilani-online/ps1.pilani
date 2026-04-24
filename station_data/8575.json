@@ -3,18 +3,19 @@
     "stationId": 8575,
     "stationName": "Ornate Agencies Private Limited",
     "cityId": 121796,
-    "city": "Delhi",
+    "city": "A-87, Okhla Industrial Area, Phase-II, Okhla Industrial Estate, South Delhi, New Delhi, Delhi, India, 110020 A-87, Okhla Industrial Area, Phase-II, Okhla Industrial Estate, South Delhi, New Delhi, Delhi, India, 110020",
     "accomodation": "null",
     "projectDomains": [
       28
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 255,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Electronics",
     "state": "Delhi",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8575,
@@ -99,7 +100,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-omprakash@bits.com"
       },

@@ -3,19 +3,20 @@
     "stationId": 8796,
     "stationName": "Paradeep Phosphates Limited  Goa",
     "cityId": 6,
-    "city": "Goa",
+    "city": "Goa Goa",
     "accomodation": "null",
     "projectDomains": [
       14,
       21
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 257,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Chemical",
     "state": "Goa",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8796,

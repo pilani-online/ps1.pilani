@@ -3,18 +3,19 @@
     "stationId": 8768,
     "stationName": "Anish Pharma Equip Pvt. Ltd.",
     "cityId": 120550,
-    "city": "Nashik",
+    "city": "G - 68, MIDC Ambad, Nasik, Nashik  Maharashtra 422010",
     "accomodation": "null",
     "projectDomains": [
       350
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 110,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Mechanical",
     "state": "Maharashtra",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8768,

@@ -3,18 +3,19 @@
     "stationId": 8770,
     "stationName": "Swecha - Data Engineering",
     "cityId": 24,
-    "city": "Hyderabad",
+    "city": "Sy. No. 91, Gachibowli Cir, beside Centre for Good Governance, Greenland Colony,  Gachibowli, Telangana 500032",
     "accomodation": "null",
     "projectDomains": [
       159
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 390,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Telangana",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8770,

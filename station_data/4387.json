@@ -3,7 +3,7 @@
     "stationId": 4387,
     "stationName": "Petasense Technologies Private Limited-Bangalore",
     "cityId": 122567,
-    "city": "Bengaluru",
+    "city": "Bangalore Office Address: 91springboard, 3rd Floor, Padmavathi Complex, 80 Feet Rd, Koramangala 8th Block,  Koramangala, Bengaluru, Karnataka 560095",
     "accomodation": "null",
     "projectDomains": [
       29,
@@ -11,13 +11,14 @@
       5,
       71
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 75,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "CSIS/IT",
     "state": "Karnataka",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4387,
@@ -144,7 +145,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-abhishek@bits.com"
       },

@@ -3,19 +3,20 @@
     "stationId": 8500,
     "stationName": "Maven Infotech",
     "cityId": 123032,
-    "city": "Ahmedabad",
+    "city": "C-511, Titanium City Centre, Near Sachin Tower, Anandnagar Road,  Ahmedabad - 380015",
     "accomodation": "null",
     "projectDomains": [
       71,
       2
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 219,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Gujarat",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8500,
@@ -48,9 +49,9 @@
     "stationGroupId": 1,
     "reason": "",
     "relation": "",
-    "assignedFacultyId": null,
+    "assignedFacultyId": 1673,
     "assignedFacultyUserName": null,
-    "delete": 0,
+    "delete": null,
     "createdBy": "planning-sowmya@bits.com",
     "stationContactName": "Nirav Shah",
     "stationContactDesignation": "",
@@ -100,7 +101,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sowmya@bits.com"
       },
@@ -121,7 +122,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sowmya@bits.com"
       },

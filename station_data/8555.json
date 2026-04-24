@@ -3,18 +3,19 @@
     "stationId": 8555,
     "stationName": "Indian National Centre for Ocean Information Services (INCOIS)",
     "cityId": 24,
-    "city": "Hyderabad",
+    "city": "Indian National Centre for Ocean Information Services (INCOIS), Ministry of Earth Sciences, Government of India, Pragathi Nagar (B.O),  Nizampet (S.O), Hyderabad - 500 090.",
     "accomodation": "null",
     "projectDomains": [
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 54,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "CSIS/IT",
     "state": "Telangana",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8555,
@@ -99,7 +100,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-kalyan@bits.com"
       },

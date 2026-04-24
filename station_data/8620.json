@@ -3,18 +3,19 @@
     "stationId": 8620,
     "stationName": "ONGC, Delhi",
     "cityId": 121802,
-    "city": "New Delhi",
+    "city": "5, Nelson Mandela Marg, Vasant Kunj, New Delhi-110070 New Delhi-110070",
     "accomodation": "null",
     "projectDomains": [
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 71,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Infrastructure",
     "state": "Delhi",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8620,

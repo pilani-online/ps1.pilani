@@ -3,18 +3,19 @@
     "stationId": 8755,
     "stationName": "SNC&IT services Pvt Ltd",
     "cityId": 24,
-    "city": "Hyderabad",
+    "city": "Plot No: 102, House Number: 129, Sai Nagar Colony, Nizampet X Rd, Kukatpally Housing Board Colony, Kukatpally,  Hyderabad, Telangana \u2013 500085",
     "accomodation": "null",
     "projectDomains": [
       2
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 378,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Telangana",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8755,

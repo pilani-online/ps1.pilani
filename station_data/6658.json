@@ -3,7 +3,7 @@
     "stationId": 6658,
     "stationName": "Technology Enabling Centre, BITS Pilani, Pilani campus",
     "cityId": 121332,
-    "city": "Pilani",
+    "city": "Technology Enabling Centre, 1st Floor , Rakesh Kapoor Innovation Centre, BITS Pilani",
     "accomodation": "null",
     "projectDomains": [
       81,
@@ -17,13 +17,14 @@
       32,
       14
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 400,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Rajasthan",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 6658,

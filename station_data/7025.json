@@ -3,7 +3,7 @@
     "stationId": 7025,
     "stationName": "METASRUJAN",
     "cityId": 122567,
-    "city": "Bengaluru",
+    "city": "SY.No.119, Site No.216, Suradenpura & Basavalingappa Layout, Adde Cross, Yelahanka. Bangalore- 562110  Yelahanka. Bangalore- 562110",
     "accomodation": "null",
     "projectDomains": [
       127,
@@ -12,13 +12,14 @@
       21,
       135
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 223,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Karnataka",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 7025,
@@ -166,7 +167,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sunil@bits.com"
       },
@@ -187,7 +188,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sunil@bits.com"
       },
@@ -208,7 +209,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sunil@bits.com"
       },

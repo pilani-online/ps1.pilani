@@ -3,20 +3,21 @@
     "stationId": 8678,
     "stationName": "Atharv SecureTech Pvt Ltd",
     "cityId": 24,
-    "city": "Hyderabad",
+    "city": "TBI, BITS PILANI,Hyd, Campus,Jawahar Ngr,Kapra,  BITS, Hyderabad",
     "accomodation": "null",
     "projectDomains": [
       2,
       105,
       599
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 116,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Telangana",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8678,

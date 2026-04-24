@@ -3,19 +3,20 @@
     "stationId": 8642,
     "stationName": "VNR Seeds Pvt Ltd",
     "cityId": 124206,
-    "city": "Raipur",
+    "city": "IT Department (Mr. Mukesh K) Corporate Center, Canal crossing Road, Ring Road No. 1 Raipur-492006 IT Department (Mr. Mukesh K) Corporate Center, Canal crossing Road, Ring Road No. 1 Raipur-492006",
     "accomodation": "null",
     "projectDomains": [
       86,
       521
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 417,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Chhattisgarh",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8642,

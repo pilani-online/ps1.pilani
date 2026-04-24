@@ -3,18 +3,19 @@
     "stationId": 8814,
     "stationName": "RCMA (Koraput)",
     "cityId": 197331,
-    "city": "Sunabeda",
+    "city": "RCMA Koraput, C/o HAL Koraput Division, Post Box No.15, Sunabeda-763002, ODISHA RCMA Koraput, C/o HAL Koraput Division, Post Box No.15, Sunabeda-763002, ODISHA",
     "accomodation": "null",
     "projectDomains": [
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 364,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 0,
     "stationDomain": "Electronics",
     "state": "Odisha",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8814,

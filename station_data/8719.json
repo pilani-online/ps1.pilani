@@ -3,18 +3,19 @@
     "stationId": 8719,
     "stationName": "PS-I Entrepreneurship track - Aha Automotive Innovations LLP - Non Tech",
     "cityId": 21,
-    "city": "Jaipur",
+    "city": "Jaipur -",
     "accomodation": "null",
     "projectDomains": [
       510
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 274,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Rajasthan",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8719,

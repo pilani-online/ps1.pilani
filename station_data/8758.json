@@ -3,18 +3,19 @@
     "stationId": 8758,
     "stationName": "Swecha - Artificial Intelligence - AI Workflows",
     "cityId": 24,
-    "city": "Hyderabad",
+    "city": "\t Hyderabad \t Hyderabad",
     "accomodation": "null",
     "projectDomains": [
       65
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 387,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Telangana",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8758,

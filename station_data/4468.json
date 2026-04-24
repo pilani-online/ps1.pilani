@@ -3,7 +3,7 @@
     "stationId": 4468,
     "stationName": "Yashoda Hospitals",
     "cityId": 121073,
-    "city": "Secunderabad",
+    "city": "Secunderabad Secunderabad",
     "accomodation": "null",
     "projectDomains": [
       28,
@@ -12,13 +12,14 @@
       37,
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 422,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Health Care",
     "state": "Telangana",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4468,

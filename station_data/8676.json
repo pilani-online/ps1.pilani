@@ -3,19 +3,20 @@
     "stationId": 8676,
     "stationName": "Reliance Jio Infocomm Ltd",
     "cityId": 120552,
-    "city": "Navi Mumbai",
+    "city": "Reliance Corporate Park (RCP), Thane- Belapur Road, Ghansoli,  Navi Mumbai, Navi Mumbai \u2013 400701",
     "accomodation": "null",
     "projectDomains": [
       596,
       86
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 8,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Electronics",
     "state": "Maharashtra",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8676,

@@ -3,7 +3,7 @@
     "stationId": 8572,
     "stationName": "Phaloudi Constructions and Infrastructure  PVT. LTD.",
     "cityId": 123967,
-    "city": "Indore",
+    "city": "203, Panama Tower Kanchan Baugh,  Geeta Bhawan Square Manorama Ganj, Indore 452001",
     "accomodation": "null",
     "projectDomains": [
       557,
@@ -12,13 +12,14 @@
       559,
       560
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 261,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Infrastructure",
     "state": "Madhya Pradesh",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8572,
@@ -103,7 +104,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-kalyan@bits.com"
       },

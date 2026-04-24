@@ -3,7 +3,7 @@
     "stationId": 8636,
     "stationName": "Maritime Research Center, Foundation for Underwater Domain Awareeness",
     "cityId": 29,
-    "city": "Pune",
+    "city": "Maritime Research Center, G. No 365 366 368 Koregaon Bhima,  Pune, Maharashtra 412216",
     "accomodation": "null",
     "projectDomains": [
       583,
@@ -12,13 +12,14 @@
       586,
       587
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 218,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Maharashtra",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8636,

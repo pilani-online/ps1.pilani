@@ -3,18 +3,19 @@
     "stationId": 8746,
     "stationName": "Deloitte Touche Tohmatsu India LLP",
     "cityId": 14,
-    "city": "Mumbai",
+    "city": "24th \u2013 32nd floors, One International Centre, Tower 3 Senapati Bapat Marg, Fitwala Rd,  West, Mumbai, Maharashtra 400013",
     "accomodation": "null",
     "projectDomains": [
       604
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 1,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Finance and Mgmt",
     "state": "Maharashtra",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8746,

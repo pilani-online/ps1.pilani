@@ -3,18 +3,19 @@
     "stationId": 8745,
     "stationName": "miBiome Therapeutics (DataHelix AI)",
     "cityId": 14,
-    "city": "Mumbai",
+    "city": "Flexcel Park, C Wing, Swami Vivekanand Rd, Momin Nagar, Jogeshwari West, Mumbai 400102 Flexcel Park, C Wing, Swami Vivekanand Rd, Momin Nagar, Jogeshwari West, Mumbai 400102",
     "accomodation": "null",
     "projectDomains": [
       86
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 224,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Chemical",
     "state": "Maharashtra",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8745,

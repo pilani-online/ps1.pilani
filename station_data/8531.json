@@ -3,19 +3,20 @@
     "stationId": 8531,
     "stationName": "Rane Madras Limited - Brake Components Division - Pondicherry",
     "cityId": 121001,
-    "city": "Puducherry",
+    "city": "Pondicherry Pondicherry",
     "accomodation": "null",
     "projectDomains": [
       1,
       21
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 362,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Puducherry",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8531,
@@ -100,7 +101,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-abhishek@bits.com"
       },

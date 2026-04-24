@@ -3,19 +3,20 @@
     "stationId": 8645,
     "stationName": "Centre for Railway Information Systems, Secunderabad",
     "cityId": 121073,
-    "city": "Secunderabad",
+    "city": "Secunderabad Secunderabad",
     "accomodation": "null",
     "projectDomains": [
       105,
       86
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 136,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Telangana",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8645,

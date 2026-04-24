@@ -3,18 +3,19 @@
     "stationId": 8771,
     "stationName": "PS-I Entrepreneurship track - Prakirbha AI Diagnostics - Non Tech",
     "cityId": 24,
-    "city": "Hyderabad",
+    "city": "BITS Hyderabad BITS Hyderabad",
     "accomodation": "null",
     "projectDomains": [
       522
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 330,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Others",
     "state": "Telangana",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8771,

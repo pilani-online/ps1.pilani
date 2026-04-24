@@ -3,7 +3,7 @@
     "stationId": 4658,
     "stationName": "Multigraphics Group - Renewable Energy",
     "cityId": 121796,
-    "city": "Delhi",
+    "city": "A-86, DDA Shed,Okhla Industrial Area, Phase-2, New Delhi",
     "accomodation": "null",
     "projectDomains": [
       21,
@@ -11,15 +11,17 @@
       58,
       20,
       25,
-      81
+      81,
+      508
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 229,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Delhi",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4658,
@@ -31,7 +33,7 @@
     "pstypeId": 1,
     "associationDateText": "2017",
     "incorporationYear": "1995",
-    "newProblemBankExists": false,
+    "newProblemBankExists": true,
     "problemBankExists": true,
     "otherPstypeExists": false,
     "domainId": 1,
@@ -165,6 +167,48 @@
         "totalRequirement": 3,
         "noOfProject": 1,
         "batchId": 16,
+        "psTypeId": 1,
+        "psTypeName": "PS I",
+        "semesterId": null,
+        "status": null,
+        "createdBy": "planning@bits.com"
+      },
+      "projects": []
+    },
+    {
+      "problem_bank": {
+        "stationId": 4658,
+        "stationName": "Multigraphics Group - Renewable Energy",
+        "parentStationName": "Multigraphics Group",
+        "stationCity": "Delhi",
+        "problemBankId": 9485,
+        "businessDomain": "CSIS/IT",
+        "totalFemalRequirement": 0,
+        "totalMaleRequirement": 0,
+        "totalRequirement": 15,
+        "noOfProject": 1,
+        "batchId": 18,
+        "psTypeId": 1,
+        "psTypeName": "PS I",
+        "semesterId": null,
+        "status": null,
+        "createdBy": "planning@bits.com"
+      },
+      "projects": []
+    },
+    {
+      "problem_bank": {
+        "stationId": 4658,
+        "stationName": "Multigraphics Group - Renewable Energy",
+        "parentStationName": "Multigraphics Group",
+        "stationCity": "Delhi",
+        "problemBankId": 9486,
+        "businessDomain": "CSIS/IT",
+        "totalFemalRequirement": 0,
+        "totalMaleRequirement": 0,
+        "totalRequirement": 15,
+        "noOfProject": 1,
+        "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
         "semesterId": null,

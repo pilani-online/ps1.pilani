@@ -3,7 +3,7 @@
     "stationId": 4826,
     "stationName": "Central Institute of Road Transport - IT",
     "cityId": 29,
-    "city": "Pune",
+    "city": "\t Pune \t Pune",
     "accomodation": "null",
     "projectDomains": [
       21,
@@ -13,13 +13,14 @@
       5,
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 131,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Mechanical",
     "state": "Maharashtra",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4826,

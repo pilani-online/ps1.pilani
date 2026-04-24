@@ -3,7 +3,7 @@
     "stationId": 4475,
     "stationName": "GPLAN Services Private Limited - IT",
     "cityId": 121332,
-    "city": "Pilani",
+    "city": "BITS Pilani Campus Pilani",
     "accomodation": "null",
     "projectDomains": [
       29,
@@ -11,13 +11,14 @@
       2,
       24
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 74,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "CSIS/IT",
     "state": "Rajasthan",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4475,
@@ -144,7 +145,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-ankita@bits.com"
       },

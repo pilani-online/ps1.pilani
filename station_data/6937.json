@@ -3,18 +3,19 @@
     "stationId": 6937,
     "stationName": "Central Institute of Road Transport - Electrical & Electronics",
     "cityId": 29,
-    "city": "Pune",
+    "city": "\t Pune \t Pune",
     "accomodation": "null",
     "projectDomains": [
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 130,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Mechanical",
     "state": "Maharashtra",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 6937,

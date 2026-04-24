@@ -3,7 +3,7 @@
     "stationId": 6947,
     "stationName": "MeghaAI India Private Limited",
     "cityId": 24,
-    "city": "Hyderabad",
+    "city": "Plot No 1/C, Sy No 83/1, Raidurgam, Knowledge City Rd, Panmaktha, Hyderabad, Serillingampalle, Telangana 500081 Plot No 1/C, Sy No 83/1, Raidurgam, Knowledge City Rd, Panmaktha, Hyderabad, Serillingampalle, Telangana 500081",
     "accomodation": "null",
     "projectDomains": [
       127,
@@ -13,13 +13,14 @@
       65,
       1
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 88,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "CSIS/IT",
     "state": "Telangana",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 6947,
@@ -125,7 +126,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-abhishek@bits.com"
       },

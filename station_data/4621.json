@@ -3,7 +3,7 @@
     "stationId": 4621,
     "stationName": "Ananta Medicare Limited",
     "cityId": 197014,
-    "city": "Sriganganagar",
+    "city": "Chak 17 ML, AGRO Food Park Road, RIICO Sriganganagar",
     "accomodation": "null",
     "projectDomains": [
       21,
@@ -12,13 +12,14 @@
       206,
       140
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 109,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Health Care",
     "state": "Rajasthan",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4621,
@@ -145,7 +146,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-ankita@bits.com"
       },

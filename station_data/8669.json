@@ -3,18 +3,19 @@
     "stationId": 8669,
     "stationName": "Ode Chem LLP",
     "cityId": 14,
-    "city": "Mumbai",
+    "city": "103, 1st Floor, Kunkuwadi CHSL, near Kunkuwadi Hanuman Mandir, Vile Parle East, Mumbai: 400057 103, 1st Floor, Kunkuwadi CHSL, near Kunkuwadi Hanuman Mandir, Vile Parle East, Mumbai: 400057",
     "accomodation": "null",
     "projectDomains": [
       58
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 252,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Health Care",
     "state": "Maharashtra",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8669,

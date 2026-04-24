@@ -3,18 +3,20 @@
     "stationId": 8600,
     "stationName": "Centre for Development of Advanced Computing (CDAC) - Thiruvananthapuram",
     "cityId": 196708,
-    "city": "Thiruvananthapuram",
+    "city": "Thiruvananthapuram Thiruvananthapuram",
     "accomodation": "null",
     "projectDomains": [
-      81
+      81,
+      21
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 11,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "CSIS/IT",
     "state": "Kerala",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8600,
@@ -94,12 +96,12 @@
         "businessDomain": "CSIS/IT",
         "totalFemalRequirement": 0,
         "totalMaleRequirement": 0,
-        "totalRequirement": 4,
-        "noOfProject": 1,
+        "totalRequirement": 5,
+        "noOfProject": 2,
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-ankita@bits.com"
       },

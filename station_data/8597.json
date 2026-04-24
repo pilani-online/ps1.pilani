@@ -3,7 +3,7 @@
     "stationId": 8597,
     "stationName": "Center for Development of Advanced Computing(C-DAC) - Pune",
     "cityId": 29,
-    "city": "Pune",
+    "city": "C-DAC Innovation Park, Sr. No. 34/B/1, Panchvati, Pashan, Pune - 411008, Maharashtra, India. C-DAC Innovation Park, Sr. No. 34/B/1, Panchvati, Pashan, Pune - 411008, Maharashtra, India.",
     "accomodation": "null",
     "projectDomains": [
       575,
@@ -12,13 +12,14 @@
       202,
       577
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 9,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "CSIS/IT",
     "state": "Maharashtra",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8597,
@@ -103,7 +104,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-ankita@bits.com"
       },

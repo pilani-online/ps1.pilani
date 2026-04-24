@@ -3,19 +3,20 @@
     "stationId": 8522,
     "stationName": "NeSL Asset Data Limited (NADL)",
     "cityId": 122567,
-    "city": "Bengaluru",
+    "city": "'A' Wing 5th Floor, \u201cThe Estate\u201d Building 121, Dickenson Road, Bengaluru \u2013 560 042 'A' Wing 5th Floor, \u201cThe Estate\u201d Building 121, Dickenson Road, Bengaluru \u2013 560 042",
     "accomodation": "null",
     "projectDomains": [
       43,
       179
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 239,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Finance and Mgmt",
     "state": "Karnataka",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8522,
@@ -100,7 +101,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-abhishek@bits.com"
       },

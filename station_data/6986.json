@@ -3,18 +3,19 @@
     "stationId": 6986,
     "stationName": "NRLDC-National Regional Load Despatch Center, Grid-India",
     "cityId": 121796,
-    "city": "Delhi",
+    "city": "Delhi Delhi",
     "accomodation": "null",
     "projectDomains": [
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 37,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Electronics",
     "state": "Delhi",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 6986,

@@ -3,19 +3,20 @@
     "stationId": 4536,
     "stationName": "National Informatics Centre (NIC)",
     "cityId": 121796,
-    "city": "Delhi",
+    "city": "NIC HQ, A Block, CGO Complex,  Lodhi Road, New Delhi \u2013 110003",
     "accomodation": "null",
     "projectDomains": [
       5,
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 234,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Delhi",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4536,
@@ -142,7 +143,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sowmya@bits.com"
       },

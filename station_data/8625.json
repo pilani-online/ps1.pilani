@@ -3,18 +3,19 @@
     "stationId": 8625,
     "stationName": "ONGC, Ahmedabad",
     "cityId": 123032,
-    "city": "Ahmedabad",
+    "city": "CPF No.: 136245 2nd Floor, Tower-A, Deendayal Urja Bhavan 5, Nelson Mandela Marg,  Vasant Kunj, New Delhi-110 07",
     "accomodation": "null",
     "projectDomains": [
       14
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 72,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Infrastructure",
     "state": "Gujarat",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8625,

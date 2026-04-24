@@ -3,18 +3,19 @@
     "stationId": 8776,
     "stationName": "PS-I Entrepreneurship track - Defendron Technologies - Tech",
     "cityId": 29,
-    "city": "Pune",
+    "city": "\"11 Cowork, Future 1, DP Rd, above SVC Bank, Anant Society, Aundh, Pune, Maharashtra 411007\" \"11 Cowork, Future 1, DP Rd, above SVC Bank, Anant Society, Aundh, Pune, Maharashtra 411007\"",
     "accomodation": "null",
     "projectDomains": [
       511
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 297,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Others",
     "state": "Maharashtra",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8776,

@@ -3,18 +3,19 @@
     "stationId": 8509,
     "stationName": "Bid alert - Non Tech",
     "cityId": 197305,
-    "city": "Guntur",
+    "city": "Ramannapeta 1 st line, Opp LVR Club road, Guntur, Andhra Pradesh-522007 Ramannapeta 1 st line, Opp LVR Club road, Guntur, Andhra Pradesh-522007",
     "accomodation": "null",
     "projectDomains": [
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 121,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Finance and Mgmt",
     "state": "Andhra Pradesh",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8509,

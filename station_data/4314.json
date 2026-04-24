@@ -3,7 +3,7 @@
     "stationId": 4314,
     "stationName": "ITCONS E-Solutions Ltd",
     "cityId": 122154,
-    "city": "Noida",
+    "city": "3 rd Floor, B-10, Bajaj Bhawan, JamnaLal Bajaj Marg, Sector-3,  Noida \u2013 UP - 201301",
     "accomodation": "null",
     "projectDomains": [
       5,
@@ -14,13 +14,14 @@
       22,
       23
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 203,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Finance and Mgmt",
     "state": "Uttar Pradesh",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4314,

@@ -3,20 +3,21 @@
     "stationId": 8709,
     "stationName": "PS-I Entrepreneurship track - Palyt Technologies Pvt. Ltd.",
     "cityId": 21,
-    "city": "Jaipur",
+    "city": "Jaipur Jaipur",
     "accomodation": "null",
     "projectDomains": [
       522,
       600,
       86
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 328,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Others",
     "state": "Rajasthan",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8709,

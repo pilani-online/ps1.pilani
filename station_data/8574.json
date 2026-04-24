@@ -3,7 +3,7 @@
     "stationId": 8574,
     "stationName": "IBizCatalyst Venture Pvt Ltd (AiRoHire.ai)",
     "cityId": 122567,
-    "city": "Bengaluru",
+    "city": "No.102, Brigade Corner,  7th Block, Circle, Yediyur, Jayanagar, Bengaluru, Karnataka 560004\u00b7",
     "accomodation": "null",
     "projectDomains": [
       2,
@@ -13,13 +13,14 @@
       23,
       87
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 4,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "CSIS/IT",
     "state": "Karnataka",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8574,
@@ -104,7 +105,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-abhishek@bits.com"
       },

@@ -3,20 +3,21 @@
     "stationId": 4550,
     "stationName": "NIXI( National Internet Exchange of India)",
     "cityId": 121796,
-    "city": "Delhi",
+    "city": "National Internet Exchange of India(NIXI),9 TH FLOOR, b wing Statesman House, 148, Barakhamba Road, New Delhi",
     "accomodation": "null",
     "projectDomains": [
       5,
       81,
       127
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 249,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Delhi",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4550,

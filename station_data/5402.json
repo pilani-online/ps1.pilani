@@ -3,18 +3,19 @@
     "stationId": 5402,
     "stationName": "Multigraphics Groupn - Battery Technology and Energy Systems",
     "cityId": 121796,
-    "city": "Delhi",
+    "city": "A-86, DDA Shed,Okhla Industrial Area, Phase-2, New Delhi",
     "accomodation": "null",
     "projectDomains": [
       508
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 231,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Delhi",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 5402,

@@ -3,7 +3,7 @@
     "stationId": 4469,
     "stationName": "Laurus Labs",
     "cityId": 121564,
-    "city": "Anakapalle",
+    "city": "Plot No. 19, 20 &amp; 21, APSEZ, Atchutapuram \u2013 531011, Anakapalli District, Andhra Pradesh Plot No. 19, 20 &amp; 21, APSEZ, Atchutapuram \u2013 531011, Anakapalli District, Andhra Pradesh",
     "accomodation": "null",
     "projectDomains": [
       32,
@@ -16,13 +16,14 @@
       21,
       14
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 214,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Health Care",
     "state": "Andhra Pradesh",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4469,

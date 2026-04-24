@@ -3,19 +3,20 @@
     "stationId": 8631,
     "stationName": "Varistor Technologies Pvt. Ltd.",
     "cityId": 122567,
-    "city": "Bengaluru",
+    "city": "No. F-1107, Block-1, First Floor Ardente Office One, Hoodi Circle,  ITPL Main Rd, Bangalore 560048",
     "accomodation": "null",
     "projectDomains": [
       22,
       94
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 414,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Finance and Mgmt",
     "state": "Karnataka",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8631,

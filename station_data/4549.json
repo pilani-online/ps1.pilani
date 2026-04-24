@@ -3,20 +3,21 @@
     "stationId": 4549,
     "stationName": "NICSI( National Informatics Centre services Inc.)",
     "cityId": 121796,
-    "city": "Delhi",
+    "city": "NICSI ,  NBCC Tower, 15 Bhikaji Cama Place, New Delhi - 110066. NICSI ,  NBCC Tower, 15 Bhikaji Cama Place, New Delhi - 110066.",
     "accomodation": "null",
     "projectDomains": [
       5,
       81,
       105
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 241,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Delhi",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4549,

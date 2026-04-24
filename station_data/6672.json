@@ -3,7 +3,7 @@
     "stationId": 6672,
     "stationName": "Genesis Gas Solutions Private Limited - IT",
     "cityId": 122154,
-    "city": "Noida",
+    "city": "C-3, Sector 145, Gautam Buddha Nagar,  Noida, Uttar Pradesh",
     "accomodation": "null",
     "projectDomains": [
       128,
@@ -16,13 +16,14 @@
       133,
       28
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 178,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Uttar Pradesh",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 6672,
@@ -170,7 +171,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sowmya@bits.com"
       },

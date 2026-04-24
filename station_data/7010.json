@@ -3,20 +3,21 @@
     "stationId": 7010,
     "stationName": "BigLook - Non Tech",
     "cityId": 197197,
-    "city": "Waterford, Ireland",
+    "city": "Waterford, Ireland Waterford, Ireland",
     "accomodation": "null",
     "projectDomains": [
       49,
       181,
       105
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 6,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "CSIS/IT",
     "state": "County Waterford",
-    "country": "Ireland"
+    "country": "Ireland",
+    "address": null
   },
   "station_details": {
     "stationId": 7010,

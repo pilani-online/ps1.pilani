@@ -3,18 +3,19 @@
     "stationId": 8757,
     "stationName": "Bhukhanvala Industries Private Limited",
     "cityId": 123153,
-    "city": "Navsari",
+    "city": "No. 437, 438, 453, 454, 455/1, GIDC Industrial Estate, Phase-2, Post Kabilpore,-396424, 396427 GIDC Navsari, Gujarat",
     "accomodation": "null",
     "projectDomains": [
       21
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 119,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Mechanical",
     "state": "Gujarat",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8757,

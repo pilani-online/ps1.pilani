@@ -3,7 +3,7 @@
     "stationId": 4563,
     "stationName": "DigiWok Media",
     "cityId": 121715,
-    "city": "Visakhapatnam",
+    "city": "Office No. 10, Third Floor, Navaratna Jewel Square, opp. RTC Complex Road, Dwaraka Nagar, Visakhapatnam, Andhra Pradesh 530016 Office No. 10, Third Floor, Navaratna Jewel Square, opp. RTC Complex Road, Dwaraka Nagar, Visakhapatnam, Andhra Pradesh 530016",
     "accomodation": "null",
     "projectDomains": [
       25,
@@ -14,13 +14,14 @@
       49,
       98
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 162,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Finance and Mgmt",
     "state": "Andhra Pradesh",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4563,
@@ -189,7 +190,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-ankita@bits.com"
       },

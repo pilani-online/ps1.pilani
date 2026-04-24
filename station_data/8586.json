@@ -3,18 +3,19 @@
     "stationId": 8586,
     "stationName": "CSIR - Central Electronics Engineering Research Institute (CEERI) - Pilani",
     "cityId": 121332,
-    "city": "Pilani",
+    "city": "CSIR-CEERI, Pilani-333031 CSIR-CEERI, Pilani-333031",
     "accomodation": "null",
     "projectDomains": [
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 57,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Electronics",
     "state": "Rajasthan",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8586,
@@ -99,7 +100,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-ankita@bits.com"
       },

@@ -3,7 +3,7 @@
     "stationId": 4356,
     "stationName": "Indium Software Pvt. Ltd.",
     "cityId": 23,
-    "city": "Chennai",
+    "city": "Indium Software (India) Private Limited Olympia Tech Park, Fortius Block, 3rd Floor Plot No. 1, 100 Feet Road SIDCO Industrial Estate,  Guindy Chennai \u2013 600032, Tamil Nadu, India",
     "accomodation": "null",
     "projectDomains": [
       124,
@@ -12,13 +12,14 @@
       119,
       65
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 196,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Tamil Nadu",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4356,

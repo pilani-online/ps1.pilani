@@ -3,20 +3,21 @@
     "stationId": 6927,
     "stationName": "Elite Projects Pvt Ltd",
     "cityId": 122154,
-    "city": "Noida",
+    "city": "115, First Floor, Choukhani square,  P-4, Sector-18, Noida",
     "accomodation": "null",
     "projectDomains": [
       2,
       20,
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 166,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Uttar Pradesh",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 6927,

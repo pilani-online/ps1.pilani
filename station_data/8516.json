@@ -3,19 +3,20 @@
     "stationId": 8516,
     "stationName": "Institute of Applied Mathematics (IfAM) at Leibniz University Hannover, Germany",
     "cityId": 197306,
-    "city": "Hannover",
+    "city": "Welfengarten 1, 30167 Hannover, Germany Germany",
     "accomodation": "null",
     "projectDomains": [
       270,
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 5,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 1,
     "stationDomain": "Others",
     "state": "Hamburg",
-    "country": "Germany"
+    "country": "Germany",
+    "address": null
   },
   "station_details": {
     "stationId": 8516,
@@ -121,7 +122,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-omprakash@bits.com"
       },

@@ -3,18 +3,19 @@
     "stationId": 8505,
     "stationName": "NDR Warehousing",
     "cityId": 6,
-    "city": "Goa",
+    "city": "NDR Warehousing NDR Warehousing",
     "accomodation": "null",
     "projectDomains": [
       21
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 236,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Mechanical",
     "state": "Goa",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8505,
@@ -93,13 +94,13 @@
         "problemBankId": 8333,
         "businessDomain": "Mechanical",
         "totalFemalRequirement": 0,
-        "totalMaleRequirement": 2,
-        "totalRequirement": 2,
+        "totalMaleRequirement": 3,
+        "totalRequirement": 3,
         "noOfProject": 1,
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sunil@bits.com"
       },

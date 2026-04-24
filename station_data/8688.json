@@ -3,18 +3,19 @@
     "stationId": 8688,
     "stationName": "PS-I Entrepreneurship track - PocketGluca",
     "cityId": 14,
-    "city": "Mumbai",
+    "city": "Mumbai Mumbai",
     "accomodation": "null",
     "projectDomains": [
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 329,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Others",
     "state": "Maharashtra",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8688,

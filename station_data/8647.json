@@ -3,18 +3,19 @@
     "stationId": 8647,
     "stationName": "Department of Agriculture",
     "cityId": 120968,
-    "city": "Panaji",
+    "city": "Krishi Bhavan Miramar, Tonca, Caranzalem, Panaji,  Goa 403002",
     "accomodation": "null",
     "projectDomains": [
       23
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 73,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Others",
     "state": "Goa",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8647,

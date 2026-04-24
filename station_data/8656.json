@@ -3,20 +3,21 @@
     "stationId": 8656,
     "stationName": "Jalte Diye Foundation",
     "cityId": 21,
-    "city": "Jaipur",
+    "city": "35, Hanuman Colony, Kartarpura, Jaipur, Rajasthan - 302006 35, Hanuman Colony, Kartarpura, Jaipur, Rajasthan - 302006",
     "accomodation": "null",
     "projectDomains": [
       3,
       2,
       28
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 204,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Health Care",
     "state": "Rajasthan",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8656,

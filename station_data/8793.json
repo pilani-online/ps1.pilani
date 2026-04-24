@@ -3,19 +3,20 @@
     "stationId": 8793,
     "stationName": "Paradeep Phosphates Limited",
     "cityId": 122689,
-    "city": "Mangalore",
+    "city": "\t Mangalore \t Mangalore",
     "accomodation": "null",
     "projectDomains": [
       14,
       21
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 256,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Chemical",
     "state": "Karnataka",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8793,
@@ -35,7 +36,7 @@
     "academicDomainId": null,
     "academicSubDomainId": null,
     "parentCompanyId": 6536,
-    "parentStationName": "\t Paradeep Phosphates Limited",
+    "parentStationName": " Paradeep Phosphates Limited",
     "address1": "\t Mangalore",
     "address2": "\t Mangalore",
     "cityId": 122689,
@@ -89,7 +90,7 @@
       "problem_bank": {
         "stationId": 8793,
         "stationName": "Paradeep Phosphates Limited",
-        "parentStationName": "\t Paradeep Phosphates Limited",
+        "parentStationName": " Paradeep Phosphates Limited",
         "stationCity": "Mangalore",
         "problemBankId": 9193,
         "businessDomain": "Chemical",

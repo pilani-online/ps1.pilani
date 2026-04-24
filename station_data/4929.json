@@ -3,7 +3,7 @@
     "stationId": 4929,
     "stationName": "Regional Remote Sensing Centre,Jodhpur",
     "cityId": 121275,
-    "city": "Jodhpur",
+    "city": "General Manager, Regional Remote Sensing Centre (RRSC) - West, New ISRO Complex, 9 Sector,  Kuri Bhagtasani Housing Board, Jodhpur (Rajasthan) - 342005",
     "accomodation": "null",
     "projectDomains": [
       42,
@@ -11,13 +11,14 @@
       28,
       134
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 59,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Electronics",
     "state": "Rajasthan",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4929,
@@ -144,7 +145,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sunil@bits.com"
       },

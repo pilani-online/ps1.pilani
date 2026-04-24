@@ -3,19 +3,20 @@
     "stationId": 8751,
     "stationName": "PS-I Entrepreneurship track - Apollyon Dynamics - Non Tech",
     "cityId": 24,
-    "city": "Hyderabad",
+    "city": "Hyderabad Telangana",
     "accomodation": "null",
     "projectDomains": [
       522,
       600
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 279,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Telangana",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8751,

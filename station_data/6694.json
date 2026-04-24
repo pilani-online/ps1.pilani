@@ -3,18 +3,19 @@
     "stationId": 6694,
     "stationName": "Sungold Suppliers Pvt Ltd, Kota Rajasthan",
     "cityId": 121284,
-    "city": "Kota",
+    "city": "B-83A, IPIA, Road No-4, Kota, Rajasthan - 324005 B-83A, IPIA, Road No-4, Kota, Rajasthan - 324005",
     "accomodation": "null",
     "projectDomains": [
       14
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 384,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Chemical",
     "state": "Rajasthan",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 6694,
@@ -120,7 +121,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-kalyan@bits.com"
       },

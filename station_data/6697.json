@@ -3,7 +3,7 @@
     "stationId": 6697,
     "stationName": "Techgeekz Services Private Limited",
     "cityId": 123190,
-    "city": "Surat",
+    "city": " 6th Floor, Sundaram Plus,Athugar St, Nanpura,  Surat, Gujarat ",
     "accomodation": "null",
     "projectDomains": [
       57,
@@ -15,13 +15,14 @@
       71,
       211
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 399,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Gujarat",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 6697,
@@ -148,7 +149,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-kalyan@bits.com"
       },

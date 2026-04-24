@@ -3,18 +3,19 @@
     "stationId": 8736,
     "stationName": "PS-I Entrepreneurship track - Matih Labs - Non Tech",
     "cityId": 21,
-    "city": "Jaipur",
+    "city": "\t Pilani \t Pilani",
     "accomodation": "null",
     "projectDomains": [
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 320,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Rajasthan",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8736,

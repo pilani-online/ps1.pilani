@@ -3,19 +3,20 @@
     "stationId": 4547,
     "stationName": "National e-Governance Division (NeGD)",
     "cityId": 121796,
-    "city": "Delhi",
+    "city": "Digital India Corporation(DIC). MeitY, Electronic Niketan 6 CGO Complex ,New Delhi",
     "accomodation": "null",
     "projectDomains": [
       5,
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 233,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Delhi",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4547,
@@ -142,7 +143,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sowmya@bits.com"
       },

@@ -3,18 +3,19 @@
     "stationId": 8539,
     "stationName": "Enboarder",
     "cityId": 122154,
-    "city": "Noida",
+    "city": "Enboarder B-104, WeWork, Embassy Galaxy Business Park, A-44 & 45, Sushil Marg, Block A, Industrial Area, Sector 62,  Noida, Uttar Pradesh 201309",
     "accomodation": "null",
     "projectDomains": [
       2
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 168,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Others",
     "state": "Uttar Pradesh",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8539,
@@ -99,7 +100,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-kalyan@bits.com"
       },

@@ -3,7 +3,7 @@
     "stationId": 4480,
     "stationName": "Honda Motor Cycle and Scooter India Pvt. Ltd - Manesar",
     "cityId": 120306,
-    "city": "Gurgaon",
+    "city": "\t Gurgaon \t Gurgaon",
     "accomodation": "null",
     "projectDomains": [
       134,
@@ -11,13 +11,14 @@
       51,
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 62,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Mechanical",
     "state": "Haryana",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4480,
@@ -144,7 +145,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-ankita@bits.com"
       },

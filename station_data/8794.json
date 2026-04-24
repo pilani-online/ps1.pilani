@@ -3,7 +3,7 @@
     "stationId": 8794,
     "stationName": "Infogain India Pvt Ltd",
     "cityId": 122567,
-    "city": "Bengaluru",
+    "city": "Infogain Bengaluru #7, 18th Main Road, 7th Block Koramangala Bengaluru, Karnataka \u2013 560095 Bengaluru, Karnataka \u2013 560095",
     "accomodation": "null",
     "projectDomains": [
       174,
@@ -12,13 +12,14 @@
       65,
       506
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 198,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Karnataka",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8794,

@@ -3,18 +3,19 @@
     "stationId": 8608,
     "stationName": "National Atmospheric Research Laboratory",
     "cityId": 197307,
-    "city": "Gadanki, Chittoor District,",
+    "city": "Gadanki, Chittoor district, Andhra Pradesh, 517112 Gadanki, Chittoor district, Andhra Pradesh, 517112",
     "accomodation": "null",
     "projectDomains": [
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 32,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 1,
     "stationDomain": "Electronics",
     "state": "Andhra Pradesh",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8608,
@@ -47,9 +48,9 @@
     "stationGroupId": 3,
     "reason": "",
     "relation": "",
-    "assignedFacultyId": 745,
+    "assignedFacultyId": 1673,
     "assignedFacultyUserName": null,
-    "delete": 0,
+    "delete": null,
     "createdBy": "planning-ankita@bits.com",
     "stationContactName": "Dr. T. Narayana Rao\t",
     "stationContactDesignation": "-",
@@ -99,7 +100,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-ankita@bits.com"
       },

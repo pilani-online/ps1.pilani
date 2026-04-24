@@ -3,19 +3,20 @@
     "stationId": 8549,
     "stationName": "Inc42 Media",
     "cityId": 121796,
-    "city": "Delhi",
+    "city": "59/16, Third Floor, Gali No. 59, Kalkaji, South Delhi, New Delhi,  Delhi, India, 110019",
     "accomodation": "null",
     "projectDomains": [
       58,
       24
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 85,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Finance and Mgmt",
     "state": "Delhi",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8549,
@@ -100,7 +101,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-kalyan@bits.com"
       },

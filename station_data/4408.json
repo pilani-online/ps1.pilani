@@ -3,7 +3,7 @@
     "stationId": 4408,
     "stationName": "AdaptNXT Technology Solutions Pvt. Ltd - Tech",
     "cityId": 122567,
-    "city": "Bengaluru",
+    "city": "First Floor, L, 374, 5th Main Rd, Sector 6, HSR Layout, Bengaluru, Karnataka 560102 First Floor, L, 374, 5th Main Rd, Sector 6, HSR Layout, Bengaluru, Karnataka 560102",
     "accomodation": "null",
     "projectDomains": [
       25,
@@ -15,13 +15,14 @@
       551,
       552
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 95,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Karnataka",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4408,
@@ -41,7 +42,7 @@
     "academicDomainId": null,
     "academicSubDomainId": null,
     "parentCompanyId": 3045,
-    "parentStationName": "AdaptNXT Technology Solutions Pvt. Ltd - Tech",
+    "parentStationName": "AdaptNXT Technology Solutions Pvt. Ltd",
     "address1": "First Floor, L, 374, 5th Main Rd, Sector 6, HSR Layout, Bengaluru, Karnataka 560102",
     "address2": "First Floor, L, 374, 5th Main Rd, Sector 6, HSR Layout, Bengaluru, Karnataka 560102",
     "cityId": 122567,
@@ -95,7 +96,7 @@
       "problem_bank": {
         "stationId": 4408,
         "stationName": "AdaptNXT Technology Solutions Pvt. Ltd - Tech",
-        "parentStationName": "AdaptNXT Technology Solutions Pvt. Ltd - Tech",
+        "parentStationName": "AdaptNXT Technology Solutions Pvt. Ltd",
         "stationCity": "Bengaluru",
         "problemBankId": 274,
         "businessDomain": "CSIS/IT",
@@ -116,7 +117,7 @@
       "problem_bank": {
         "stationId": 4408,
         "stationName": "AdaptNXT Technology Solutions Pvt. Ltd - Tech",
-        "parentStationName": "AdaptNXT Technology Solutions Pvt. Ltd - Tech",
+        "parentStationName": "AdaptNXT Technology Solutions Pvt. Ltd",
         "stationCity": "Bengaluru",
         "problemBankId": 3547,
         "businessDomain": "CSIS/IT",
@@ -137,7 +138,7 @@
       "problem_bank": {
         "stationId": 4408,
         "stationName": "AdaptNXT Technology Solutions Pvt. Ltd - Tech",
-        "parentStationName": "AdaptNXT Technology Solutions Pvt. Ltd - Tech",
+        "parentStationName": "AdaptNXT Technology Solutions Pvt. Ltd",
         "stationCity": "Bengaluru",
         "problemBankId": 8674,
         "businessDomain": "CSIS/IT",
@@ -148,7 +149,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-ankita@bits.com"
       },

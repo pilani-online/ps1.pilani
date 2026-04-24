@@ -3,7 +3,7 @@
     "stationId": 6675,
     "stationName": "SMARTSA TECH PRIVATE LIMITED-Onsite",
     "cityId": 121382,
-    "city": "Udaipur",
+    "city": " Onsite G-1, Aravali Heights Apartment, Near R.K. Circle,  Pula Bhuwana, Udaipur - 313001",
     "accomodation": "null",
     "projectDomains": [
       270,
@@ -16,13 +16,14 @@
       65,
       179
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 377,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Finance and Mgmt",
     "state": "Rajasthan",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 6675,

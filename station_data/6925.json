@@ -3,20 +3,21 @@
     "stationId": 6925,
     "stationName": "Digibuks LLP Mumbai",
     "cityId": 14,
-    "city": "Mumbai",
+    "city": "Unit No. 202, A Wing, Shrikant Chambers, Near RK Studio, Chembur East, Mumbai \u2013 400071. Unit No. 202, A Wing, Shrikant Chambers, Near RK Studio, Chembur East, Mumbai \u2013 400071",
     "accomodation": "null",
     "projectDomains": [
       29,
       275,
       4
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 160,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Maharashtra",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 6925,
@@ -122,7 +123,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-ankita@bits.com"
       },

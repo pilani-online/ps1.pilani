@@ -3,7 +3,7 @@
     "stationId": 6775,
     "stationName": "Max Trantech Limited",
     "cityId": 120306,
-    "city": "Gurgaon",
+    "city": "341, JMD Megapolis, Sector 48, Sohna Road, Gurgaon",
     "accomodation": "null",
     "projectDomains": [
       2,
@@ -13,13 +13,14 @@
       58,
       5
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 220,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Finance and Mgmt",
     "state": "Haryana",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 6775,

@@ -3,7 +3,7 @@
     "stationId": 8530,
     "stationName": "Rane Madras Limited - Brake Components Division - Ambattur,chennai",
     "cityId": 123367,
-    "city": "Ambattur",
+    "city": "Ambattur Ambattur",
     "accomodation": "null",
     "projectDomains": [
       21,
@@ -12,13 +12,14 @@
       124,
       2
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 361,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Tamil Nadu",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8530,
@@ -103,7 +104,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-abhishek@bits.com"
       },

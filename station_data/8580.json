@@ -3,19 +3,20 @@
     "stationId": 8580,
     "stationName": "BSNL Zira",
     "cityId": 121426,
-    "city": "Firozpur",
+    "city": "BSNL OFFICE , NEW ZIRA ROAD, NANAK NAGRI, Zira, Firozpur, FEROZEPUR, Punjab 142047 BSNL OFFICE , NEW ZIRA ROAD, NANAK NAGRI, Zira, Firozpur, FEROZEPUR, Punjab 142047",
     "accomodation": "null",
     "projectDomains": [
       562,
       11
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 126,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Electronics",
     "state": "Punjab",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8580,
@@ -48,7 +49,7 @@
     "stationGroupId": 1,
     "reason": "",
     "relation": "",
-    "assignedFacultyId": 745,
+    "assignedFacultyId": 1673,
     "assignedFacultyUserName": null,
     "delete": null,
     "createdBy": "planning-ankita@bits.com",

@@ -3,7 +3,7 @@
     "stationId": 4272,
     "stationName": "Kotak Education Foundation",
     "cityId": 14,
-    "city": "Mumbai",
+    "city": "Ujjagar Compound, Opposite Deonar Bus Depot, Off Sion - Trombay Road, Deonar Chembur, Mumbai 400088 Ujjagar Compound, Opposite Deonar Bus Depot, Off Sion - Trombay Road, Deonar Chembur, Mumbai 400088",
     "accomodation": "null",
     "projectDomains": [
       47,
@@ -19,13 +19,14 @@
       535,
       536
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 206,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Finance and Mgmt",
     "state": "Maharashtra",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4272,
@@ -152,7 +153,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-ankita@bits.com"
       },

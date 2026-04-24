@@ -3,7 +3,7 @@
     "stationId": 4286,
     "stationName": "Albatross Energetics",
     "cityId": 14,
-    "city": "Mumbai",
+    "city": "6006, Rahul Bajaj Technology Innovation Centre,  IIT Bombay, Powai, Mumbai 400076",
     "accomodation": "null",
     "projectDomains": [
       38,
@@ -12,13 +12,14 @@
       348,
       229
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 101,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Mechanical",
     "state": "Maharashtra",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4286,
@@ -51,7 +52,7 @@
     "stationGroupId": null,
     "reason": "",
     "relation": "",
-    "assignedFacultyId": null,
+    "assignedFacultyId": 1673,
     "assignedFacultyUserName": null,
     "delete": null,
     "createdBy": "planning@bits.com",

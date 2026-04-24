@@ -3,18 +3,19 @@
     "stationId": 8812,
     "stationName": "RCMA (Chandigarh)",
     "cityId": 196831,
-    "city": "Chandigarh",
+    "city": "RCMA Chandigarh, C/o No.3 BRD Air  Force, Chandigarh-160003 RCMA Chandigarh, C/o No.3 BRD Air  Force, Chandigarh-160003",
     "accomodation": "null",
     "projectDomains": [
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 23,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Electronics",
     "state": "Chandigarh",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8812,

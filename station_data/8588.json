@@ -3,7 +3,7 @@
     "stationId": 8588,
     "stationName": "Runverve Pvt Ltd",
     "cityId": 121332,
-    "city": "Pilani",
+    "city": "Runverve, RKIC, BITS Pilani (Pilani Campus) 333031 Rajasthan 333031",
     "accomodation": "null",
     "projectDomains": [
       105,
@@ -12,13 +12,14 @@
       28,
       2
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 367,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Rajasthan",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8588,
@@ -40,7 +41,7 @@
     "parentCompanyId": 6371,
     "parentStationName": "Runverve Pvt Ltd",
     "address1": "Runverve, RKIC, BITS Pilani (Pilani Campus) 333031",
-    "address2": "Runverve, RKIC, BITS Pilani (Pilani Campus) 333031",
+    "address2": "Rajasthan 333031",
     "cityId": 121332,
     "stateId": 21,
     "otherCityName": null,
@@ -69,7 +70,7 @@
         "designation": "-",
         "priority": null,
         "address1": "Runverve, RKIC, BITS Pilani (Pilani Campus) 333031",
-        "address2": "Runverve, RKIC, BITS Pilani (Pilani Campus) 333031",
+        "address2": "Rajasthan 333031",
         "cityId": 121332,
         "stateId": 21,
         "countryId": 1,
@@ -103,7 +104,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-omprakash@bits.com"
       },

@@ -3,7 +3,7 @@
     "stationId": 4553,
     "stationName": "MeitY Startup Hub(MSH)",
     "cityId": 122154,
-    "city": "Noida",
+    "city": "MeitY Startup Hub(MSH) 1st Floor Express corparate Park 16A Film city ",
     "accomodation": "null",
     "projectDomains": [
       81,
@@ -11,13 +11,14 @@
       28,
       134
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 34,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Electronics",
     "state": "Uttar Pradesh",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4553,
@@ -144,7 +145,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sunil@bits.com"
       },

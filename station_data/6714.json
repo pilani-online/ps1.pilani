@@ -3,7 +3,7 @@
     "stationId": 6714,
     "stationName": "Breathe ESG Private Limited - Tech",
     "cityId": 122567,
-    "city": "Bengaluru",
+    "city": "AVISHA, 73, Central St, Kumara Park West, Seshadripuram, Bengaluru- 560020",
     "accomodation": "null",
     "projectDomains": [
       81,
@@ -13,13 +13,14 @@
       28,
       29
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 66,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "CSIS/IT",
     "state": "Karnataka",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 6714,
@@ -49,7 +50,7 @@
     "countryId": 1,
     "statusId": 4,
     "stationTypeId": 2,
-    "stationGroupId": null,
+    "stationGroupId": 2,
     "reason": "",
     "relation": "",
     "assignedFacultyId": 16,
@@ -125,7 +126,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-omprakash@bits.com"
       },

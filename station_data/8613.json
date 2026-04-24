@@ -3,18 +3,19 @@
     "stationId": 8613,
     "stationName": "National Centre for Polar and Ocean Research (NCPOR) -Causal analysis",
     "cityId": 6,
-    "city": "Goa",
+    "city": "Ministry of Earth Science (Govt. of India), Head Land Sada, Vasco-da-gama, Goa- 403 804. Ministry of Earth Science (Govt. of India), Head Land Sada, Vasco-da-gama, Goa- 403 804.",
     "accomodation": "null",
     "projectDomains": [
       183
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 31,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Others",
     "state": "Goa",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8613,
@@ -99,7 +100,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-omprakash@bits.com"
       },

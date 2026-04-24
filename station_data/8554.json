@@ -3,19 +3,20 @@
     "stationId": 8554,
     "stationName": "Kelachandra Aquatic Machines",
     "cityId": 122909,
-    "city": "Kottayam",
+    "city": "Municipal Industrial Estate, Kodimatha,  Kottayam Kerala 686013",
     "accomodation": "null",
     "projectDomains": [
       30,
       553
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 205,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Kerala",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8554,
@@ -100,7 +101,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-kalyan@bits.com"
       },

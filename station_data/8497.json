@@ -3,18 +3,19 @@
     "stationId": 8497,
     "stationName": "Pinnacle Industrial Controls Pvt Ltd",
     "cityId": 14,
-    "city": "Mumbai",
+    "city": "Andheri Office- B206, Universal Business Park, Off Chandivali Farm Road, Andheri East, Mumbai 400072. Andheri Office- B206, Universal Business Park, Off Chandivali Farm Road, Andheri East, Mumbai 400072.",
     "accomodation": "null",
     "projectDomains": [
       29
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 263,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Maharashtra",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8497,
@@ -47,7 +48,7 @@
     "stationGroupId": 1,
     "reason": "",
     "relation": "",
-    "assignedFacultyId": 745,
+    "assignedFacultyId": 1673,
     "assignedFacultyUserName": null,
     "delete": null,
     "createdBy": "planning-omprakash@bits.com",
@@ -99,7 +100,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-omprakash@bits.com"
       },

@@ -3,18 +3,19 @@
     "stationId": 6673,
     "stationName": "Petasense Technologies Private Limited-Hyderabad",
     "cityId": 24,
-    "city": "Hyderabad",
+    "city": "Hyderabad Office Address: 91springboard, LVS Arcade, 71, Hitech, Madhapur Road, Jubilee Enclave, HITEC City,  Hyderabad, Telangana 500081",
     "accomodation": "null",
     "projectDomains": [
       71
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 76,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "CSIS/IT",
     "state": "Telangana",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 6673,
@@ -120,7 +121,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sowmya@bits.com"
       },

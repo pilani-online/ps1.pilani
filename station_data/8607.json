@@ -3,18 +3,19 @@
     "stationId": 8607,
     "stationName": "Shrreeji Sharan",
     "cityId": 14,
-    "city": "Mumbai",
+    "city": "House of Shreeji Sharan 4th Floor, Wing B, Rank Terrace Kastur Park, Shimpoli Road Borivali West, Mumbai \u2013 400092 House of Shreeji Sharan 4th Floor, Wing B, Rank Terrace Kastur Park, Shimpoli Road Borivali West, Mumbai \u2013 400092",
     "accomodation": "null",
     "projectDomains": [
       3
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 373,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Infrastructure",
     "state": "Maharashtra",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8607,
@@ -99,7 +100,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-omprakash@bits.com"
       },

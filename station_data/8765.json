@@ -3,18 +3,19 @@
     "stationId": 8765,
     "stationName": "PS-I Entrepreneurship track - Weavehand - Tech",
     "cityId": 4,
-    "city": "Patna",
+    "city": "Patna Bihar",
     "accomodation": "null",
     "projectDomains": [
       30
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 353,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Bihar",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8765,

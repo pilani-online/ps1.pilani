@@ -3,18 +3,19 @@
     "stationId": 8610,
     "stationName": "Nouveau Labs Pvt Ltd",
     "cityId": 122567,
-    "city": "Bengaluru",
+    "city": "GINSERV, JSS Campus, CA Site No : 1, HAL 3rd Stage, Behind Leela Palace, Kodihalli Bengaluru, Karnataka 560008 GINSERV, JSS Campus, CA Site No : 1, HAL 3rd Stage, Behind Leela Palace, Kodihalli Bengaluru, Karnataka 560008",
     "accomodation": "null",
     "projectDomains": [
       581
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 251,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Karnataka",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8610,
@@ -94,12 +95,12 @@
         "businessDomain": "CSIS/IT",
         "totalFemalRequirement": 0,
         "totalMaleRequirement": 0,
-        "totalRequirement": 3,
+        "totalRequirement": 5,
         "noOfProject": 5,
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-ankita@bits.com"
       },

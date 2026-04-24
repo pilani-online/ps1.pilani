@@ -3,7 +3,7 @@
     "stationId": 6782,
     "stationName": "National Institute of Electronics and Information Technology [NIELIT]",
     "cityId": 4,
-    "city": "Patna",
+    "city": "NIELIT Patna Centre, Near IIT Patna, Amhara, Bihta,  Patna (Bihar) - 801106.",
     "accomodation": "null",
     "projectDomains": [
       229,
@@ -13,13 +13,14 @@
       109,
       71
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 55,
+    "isPrefered": true,
+    "isOwnAccommodation": 1,
+    "preferredByStudent": 1,
     "stationDomain": "Electronics",
     "state": "Bihar",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 6782,
@@ -167,7 +168,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-abhishek@bits.com"
       },

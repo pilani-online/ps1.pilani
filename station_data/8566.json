@@ -3,19 +3,20 @@
     "stationId": 8566,
     "stationName": "Richas Techpro Pvt Ltd",
     "cityId": 120633,
-    "city": "Thane",
+    "city": "Office no 10 , Shanti plaza , Mira road (east) thane 401107 Office no 10 , Shanti plaza , Mira road (east) thane 401107",
     "accomodation": "null",
     "projectDomains": [
       143,
       428
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 365,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Maharashtra",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8566,
@@ -100,7 +101,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-omprakash@bits.com"
       },

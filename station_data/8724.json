@@ -3,18 +3,19 @@
     "stationId": 8724,
     "stationName": "PS-I Entrepreneurship track - Savr - Non Tech",
     "cityId": 122567,
-    "city": "Bengaluru",
+    "city": "Bangalore -",
     "accomodation": "null",
     "projectDomains": [
       487
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 340,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Karnataka",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8724,

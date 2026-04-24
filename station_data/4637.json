@@ -3,19 +3,20 @@
     "stationId": 4637,
     "stationName": "Intercontinental Consultants & Technocrats Pvt. Ltd",
     "cityId": 121802,
-    "city": "New Delhi",
+    "city": "A-8, Green Park Main,  New Delhi-16",
     "accomodation": "null",
     "projectDomains": [
       3,
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 202,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Infrastructure",
     "state": "Delhi",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 4637,
@@ -142,7 +143,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-sowmya@bits.com"
       },

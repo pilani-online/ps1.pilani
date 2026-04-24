@@ -3,18 +3,19 @@
     "stationId": 8687,
     "stationName": "PS-I Entrepreneurship track - Drivomate",
     "cityId": 21,
-    "city": "Jaipur",
+    "city": "Jaipur Jaipur",
     "accomodation": "null",
     "projectDomains": [
       81
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 299,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "Others",
     "state": "Rajasthan",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 8687,
@@ -94,7 +95,7 @@
         "businessDomain": "Others",
         "totalFemalRequirement": 0,
         "totalMaleRequirement": 0,
-        "totalRequirement": 1,
+        "totalRequirement": 0,
         "noOfProject": 1,
         "batchId": 17,
         "psTypeId": 1,

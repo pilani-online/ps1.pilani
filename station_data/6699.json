@@ -3,7 +3,7 @@
     "stationId": 6699,
     "stationName": "THE GLOBAL MERCHANTS - Online",
     "cityId": 121440,
-    "city": "Jalandhar",
+    "city": " Street No.9, Randhawa Manasanda, Focal Point,  Jalandhar (144004)",
     "accomodation": "null",
     "projectDomains": [
       29,
@@ -16,13 +16,14 @@
       24,
       22
     ],
-    "preferenceNo": null,
-    "isPrefered": false,
-    "isOwnAccommodation": null,
-    "preferredByStudent": null,
+    "preferenceNo": 403,
+    "isPrefered": true,
+    "isOwnAccommodation": 0,
+    "preferredByStudent": 0,
     "stationDomain": "CSIS/IT",
     "state": "Punjab",
-    "country": "India"
+    "country": "India",
+    "address": null
   },
   "station_details": {
     "stationId": 6699,
@@ -52,7 +53,7 @@
     "countryId": 1,
     "statusId": 4,
     "stationTypeId": 2,
-    "stationGroupId": null,
+    "stationGroupId": 2,
     "reason": "",
     "relation": "",
     "assignedFacultyId": 1220,
@@ -212,7 +213,7 @@
         "batchId": 17,
         "psTypeId": 1,
         "psTypeName": "PS I",
-        "semesterId": 0,
+        "semesterId": null,
         "status": null,
         "createdBy": "planning-omprakash@bits.com"
       },
